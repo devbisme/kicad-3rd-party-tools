@@ -65,8 +65,9 @@ link to the part page, and ordering codes.
 
 ### Footprint Library Tools
 
-- [xess_fp_wizard.py]() - A utility to make footprints for chips having pins
-around the periphery (SOICs, QFP, etc.) and ball grid arrays (BGAs).
+- [xess_fp_wizard.py](https://github.com/xesscorp/xess_fp_wizard) - A utility
+to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
+and ball grid arrays (BGAs).
 
 
 
