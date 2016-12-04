@@ -41,6 +41,8 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 ### Symbol Library Tools
 
+- [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions. 
+
 - [KiPart](https://xesscorp.github.io/KiPart) - A utility that generates single
 and multi-unit symbols from a CSV file containing all the pin information for
 one or more parts.
