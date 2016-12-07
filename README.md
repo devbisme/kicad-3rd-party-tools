@@ -18,6 +18,7 @@ automation suite.
     - [Bill of Materials (BOM) Tools](#bom-tools)
 - [PCB Layout Tools](#pcb-layout-tools)
     - [Footprint Library Tools](#footprint-library-tools)
+    - [Layout Tools](#layout-tools)
 
 <!-- /TOC -->
 
@@ -75,7 +76,9 @@ link to the part page, and ordering codes.
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
 
+### Layout Tools
 
+- [Laksen/kicad-bga-tools](https://github.com/Laksen/kicad-bga-tools) - A script to generate via fanouts for BGA components on a board.
 
 ## License
 
