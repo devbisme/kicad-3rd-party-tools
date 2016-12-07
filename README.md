@@ -67,7 +67,10 @@ link to the part page, and ordering codes.
 
 ### Footprint Library Tools
 
+- [monostable/kicad_footprints](https://github.com/monostable/kicad_footprints) - A collection of all the KiCad footprints available on the internet and some scripts to manage them. 
+
 - [svg2mod](https://github.com/mtl/svg2mod) - A tool to convert multi-layer Inkscape SVGs into footprints. 
+
 - [xess_fp_wizard.py](https://github.com/xesscorp/xess_fp_wizard) - A utility
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
