@@ -1,4 +1,4 @@
-# KiCad Third-Part Tools
+# KiCad Third-Party Tools
 
 > A curated list of third-party tools to be used in conjunction with the
 [KiCad](http://kicad-pcb.org/) open-source electronics design
