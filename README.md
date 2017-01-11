@@ -53,6 +53,25 @@ part fields in KiCad symbol libraries. KiField can extract all the component fie
 from a library and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the library.
 
+- [QEDA](https://github.com/qeda/qeda)
+QEDA is a Node.js library aimed to simplify the creation of Kicad libraries of electronic components. Qeda creates both symbols for Eeschema libraries and IPC7351 Compliant footprints for PcbNew placement.
+
+- [kicadLibCreator](https://github.com/pioupus/kicadLibCreator)
+KicadLibCreator is a tool which will generate 'atomic' parts from an Octopart query. By setting up some simple rules, entering a part number in the Octopart search and selecting the appropriate model will add a fully defined component with a consistant style to any library.
+
+- [KiCAD Part Manager](http://mikecrash.com/index.php?name=Content&pa=showpage&pid=10)
+Part manager for KiCAD electronic design suite. Based on a MySQL database of components with ability to categorize parts, store part name, part label and part number, description, parameters and also stock count and price. Parts can be assigned to components in KiCAD schematic based on component name, type and value.
+
+- [KiCad Librarian](http://www.compuphase.com/electronics/kicadlibrarian_en.htm)
+The KiCad Librarian is a utility to manage and maintain libraries with schematic symbols and footprints. It supports the KiCad EDA suite.
+Allows components to be moved between libraries, footprints adjusted etc. Can connect to a server based repository of components to facilitate sharing between workstations.
+
+- [KicadMultiEdit](www.xonelectronics.it)
+Simple way of editing large number of components in spreadsheet type view. Will parse the values and footprints of components found
+in a KiCAD schematic. 
+
+- [KiLibManager](www.xonelectronics.it)
+A utility to examine library components and move them between libraries.
 
 ### BOM Tools
 
