@@ -42,7 +42,7 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 ### Symbol Library Tools
 
-- [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols form XML input. 
+- [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input. 
 
 - [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions. 
 
