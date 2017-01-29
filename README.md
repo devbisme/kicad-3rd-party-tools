@@ -42,6 +42,8 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 ### Symbol Library Tools
 
+- [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols form XML input. 
+
 - [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions. 
 
 - [KiPart](https://xesscorp.github.io/KiPart) - A utility that generates single
@@ -52,6 +54,7 @@ one or more parts.
 part fields in KiCad symbol libraries. KiField can extract all the component fields
 from a library and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the library.
+
 
 
 ### BOM Tools
@@ -67,6 +70,8 @@ link to the part page, and ordering codes.
 ## PCB Layout Tools
 
 ### Footprint Library Tools
+
+- [Kicad-tools/modgen](https://github.com/boseji/Kicad-tools/tree/master/modgen) - A Python Tkinter GUI for creating footprints.
 
 - [monostable/kicad_footprints](https://github.com/monostable/kicad_footprints) - A collection of all the KiCad footprints available on the internet and some scripts to manage them. 
 
