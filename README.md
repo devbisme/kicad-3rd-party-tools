@@ -100,11 +100,18 @@ link to the part page, and ordering codes.
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
 
+- [pointhi/kicad-footprint-generator](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool.
 ### Layout Tools
 
 - [Laksen/kicad-bga-tools](https://github.com/Laksen/kicad-bga-tools) - A script to generate via fanouts for BGA components on a board.
 
 - [panelize.py](http://projects.borg.ch/electronics/kicad/panelize.html) - A script to create panels. It can copy, rotate and flip rectangular areas from one or more PCB files into a new PCB file.
+
+### 3d Model tools
+
+- [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
+
+- [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
 
 ## License
 
