@@ -84,6 +84,8 @@ from distributors like Digi-Key, Mouser, etc. For each distributor and part,
 the spreadsheet contains the quantity-dependent prices, available quantities,
 link to the part page, and ordering codes.
 
+- [BOMs Away](https://github.com/Jeff-Ciesielski/Boms-Away)
+A Component/BOM Management tool for KiCad. Maintains a local database of components and facilitates associating components on schmatic with identified parts. Simply enter a part's manufacturer, supplier, manufacturer PN, and supplier PN then click 'save to datastore'. Information is keyed off of component value and footprint, so future uses can simply use the part lookup button to retrieve the information. Multiple suppliers, manufacturers, and part numbers are supported. (wxPython)
 
 
 ## PCB Layout Tools
