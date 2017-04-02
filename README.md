@@ -108,7 +108,7 @@ and ball grid arrays (BGAs).
 
 - [panelize.py](http://projects.borg.ch/electronics/kicad/panelize.html) - A script to create panels. It can copy, rotate and flip rectangular areas from one or more PCB files into a new PCB file.
 
-- [RenumKicadPCB](https://documenteddesigns.com/2017/03/27/renumkicadpcb-v0203/) - RenumKiCadPCB processes a KiCad PCB file and renumbers all the component reference designators ending in numbers based on where they are located on the PCB. It then processes the schematic hierarchy and updates the component reference designators to match. This makes working on a board much easier since you can locate all the components. Available for Windows and Linux.
+- [RenumKicadPCB](https://documenteddesigns.com/2017/03/27/renumkicadpcb-v0203/) - RenumKiCadPCB processes a KiCad PCB file and renumbers all the component reference designators ending in numbers based on where they are located on the PCB. It then processes the schematic hierarchy and updates the component reference designators to match. This makes working on a board much easier since you can locate all the components. The download includes a user manual, Windows executable and instructions for compiling to run on Linux.
 
 ### 3d Model tools
 
