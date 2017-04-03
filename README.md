@@ -19,6 +19,7 @@ automation suite.
 - [PCB Layout Tools](#pcb-layout-tools)
     - [Footprint Library Tools](#footprint-library-tools)
     - [Layout Tools](#layout-tools)
+    - [3D Model Tools](#3d-model-tools)
 
 <!-- /TOC -->
 
@@ -42,9 +43,9 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 ### Symbol Library Tools
 
-- [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input. 
+- [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input.
 
-- [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions. 
+- [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions.
 
 - [KiPart](https://xesscorp.github.io/KiPart) - A utility that generates single
 and multi-unit symbols from a CSV file containing all the pin information for
@@ -70,7 +71,7 @@ Allows components to be moved between libraries, footprints adjusted etc. Can co
 
 - [KicadMultiEdit](www.xonelectronics.it)
 Simple way of editing large number of components in spreadsheet type view. Will parse the values and footprints of components found
-in a KiCAD schematic. 
+in a KiCAD schematic.
 
 - [KiLibManager](www.xonelectronics.it)
 A utility to examine library components and move them between libraries.
@@ -94,9 +95,9 @@ A Component/BOM Management tool for KiCad. Maintains a local database of compone
 
 - [Kicad-tools/modgen](https://github.com/boseji/Kicad-tools/tree/master/modgen) - A Python Tkinter GUI for creating footprints.
 
-- [monostable/kicad_footprints](https://github.com/monostable/kicad_footprints) - A collection of all the KiCad footprints available on the internet and some scripts to manage them. 
+- [monostable/kicad_footprints](https://github.com/monostable/kicad_footprints) - A collection of all the KiCad footprints available on the internet and some scripts to manage them.
 
-- [svg2mod](https://github.com/mtl/svg2mod) - A tool to convert multi-layer Inkscape SVGs into footprints. 
+- [svg2mod](https://github.com/mtl/svg2mod) - A tool to convert multi-layer Inkscape SVGs into footprints.
 
 - [xess_fp_wizard.py](https://github.com/xesscorp/xess_fp_wizard) - A utility
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
@@ -109,7 +110,7 @@ and ball grid arrays (BGAs).
 
 - [panelize.py](http://projects.borg.ch/electronics/kicad/panelize.html) - A script to create panels. It can copy, rotate and flip rectangular areas from one or more PCB files into a new PCB file.
 
-### 3d Model tools
+### 3d Model Tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
 
