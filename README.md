@@ -91,6 +91,11 @@ This KiCad plugin can be used to create custom BOM files based on easy configura
 - [BOMs Away](https://github.com/Jeff-Ciesielski/Boms-Away)
 A Component/BOM Management tool for KiCad. Maintains a local database of components and facilitates associating components on schmatic with identified parts. Simply enter a part's manufacturer, supplier, manufacturer PN, and supplier PN then click 'save to datastore'. Information is keyed off of component value and footprint, so future uses can simply use the part lookup button to retrieve the information. Multiple suppliers, manufacturers, and part numbers are supported. (wxPython)
 
+- [KiBoM](https://github.com/SchrodingersGat/KiBoM)
+KiBoM is a configurable BOM (Bill of Materials) generation tool for KiCad EDA. Written in Python, it can be used directly with KiCad software without the need for any external libraries or plugins.  
+KiBoM intelligently groups components based on multiple factors, and can generate BoM files in multiple output formats.  
+BoM options are user-configurable in a per-project configuration file.  
+
 ## PCB Layout Tools
 
 ### Footprint Library Tools
