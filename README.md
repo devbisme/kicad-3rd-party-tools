@@ -69,11 +69,11 @@ Part manager for KiCAD electronic design suite. Based on a MySQL database of com
 The KiCad Librarian is a utility to manage and maintain libraries with schematic symbols and footprints. It supports the KiCad EDA suite.
 Allows components to be moved between libraries, footprints adjusted etc. Can connect to a server based repository of components to facilitate sharing between workstations.
 
-- [KicadMultiEdit](www.xonelectronics.it)
+- [Kicad Multiedit](http://www.xonelectronics.it/download/kicad-medit/)
 Simple way of editing large number of components in spreadsheet type view. Will parse the values and footprints of components found
 in a KiCAD schematic.
 
-- [KiLibManager](www.xonelectronics.it)
+- [KiLibMan](http://www.xonelectronics.it/download/kicad/)
 A utility to examine library components and move them between libraries.
 
 
