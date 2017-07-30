@@ -120,6 +120,9 @@ and ball grid arrays (BGAs).
 
 - [RenumKicadPCB](https://documenteddesigns.com/2017/03/27/renumkicadpcb-v0203/) - RenumKiCadPCB processes a KiCad PCB file and renumbers all the component reference designators ending in numbers based on where they are located on the PCB. It then processes the schematic hierarchy and updates the component reference designators to match. This makes working on a board much easier since you can locate all the components. The download includes a user manual, Windows executable and instructions for compiling to run on Linux.
 
+- [KiPadCheck](https://github.com/HiGregSmith/KiPadCheck) - KiPadCheck provides additional basic DRC checks to KiCad
+with lists to make tweaking pads for stencil creation easier. Functions include pad list, drill list, drill to drill spacing check, drill to track spacing check, stencil aperture check vs. stencil thicknesses, stencil aperture width vs. paste type, silk to pad spacing check.
+
 ### 3d Model tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
