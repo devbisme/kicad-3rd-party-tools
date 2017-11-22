@@ -76,6 +76,7 @@ in a KiCAD schematic.
 - [KiLibMan](http://www.xonelectronics.it/download/kicad/)
 A utility to examine library components and move them between libraries.
 
+- [uConfig](https://github.com/Robotips/uConfig) - A tool to extract pinout from PDF datasheet and create kicad schematics.
 
 ### BOM Tools
 
@@ -110,7 +111,7 @@ BoM options are user-configurable in a per-project configuration file.
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
 
-- [pointhi/kicad-footprint-generator](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool.
+- [KicadModTree](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool.
 
 ### Layout Tools
 
@@ -124,6 +125,8 @@ and ball grid arrays (BGAs).
 with lists to make tweaking pads for stencil creation easier. Functions include pad list, drill list, drill to drill spacing check, drill to track spacing check, stencil aperture check vs. stencil thicknesses, stencil aperture width vs. paste type, silk to pad spacing check.
 
 - [Layer View Set](https://github.com/HiGregSmith/LayerViewSet) - A gui for saving and loading ViewSets and interacting with a stack of ViewSets for quickly changing the currently visible layers and renders within KiCad.
+
+- [Replicate layout](https://github.com/MitjaNemec/Kicad_action_plugins) - This Kicad Action plugin replicates layout section. The replication is based upon hierarchical sheets. Basic requirement for replication is that the section for replication is completely contained within one hierarchical sheet, and replicated sections are just a copy of the same sheet.
 
 ### 3d Model tools
 
