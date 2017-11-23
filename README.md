@@ -127,6 +127,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [Teardrop](https://github.com/NilujePerchut/kicad_scripts/tree/master/teardrops) - A gui to teardrop the vias, pads and "T" tracks connections in the Pcbnew.
 
+- [Replicate Layout](https://github.com/MitjaNemec/Kicad_action_plugins) - It add the Pcbnew's functionality to replicate a layout part correspondent to a hierarchical page in the Eeschema just routing one time (for multiple hierarchical sheets correspondent to the same schematic file).
+
 ### 3d Model tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
