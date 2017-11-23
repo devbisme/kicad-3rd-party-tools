@@ -125,6 +125,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [Layer View Set](https://github.com/HiGregSmith/LayerViewSet) - A gui for saving and loading ViewSets and interacting with a stack of ViewSets for quickly changing the currently visible layers and renders within KiCad.
 
+- [Teardrop](https://github.com/NilujePerchut/kicad_scripts/tree/master/teardrops) - A gui to teardrop the vias, pads and "T" tracks connections in the Pcbnew.
+
 ### 3d Model tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
