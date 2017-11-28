@@ -126,6 +126,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [Layer View Set](https://github.com/HiGregSmith/LayerViewSet) - A gui for saving and loading ViewSets and interacting with a stack of ViewSets for quickly changing the currently visible layers and renders within KiCad.
 
+- [Teardrop](https://github.com/NilujePerchut/kicad_scripts/tree/master/teardrops) - A gui to teardrop the vias, pads and "T" tracks connections in the Pcbnew.
+
 - [Replicate layout](https://github.com/MitjaNemec/Kicad_action_plugins) - This Kicad Action plugin replicates layout section. The replication is based upon hierarchical sheets. Basic requirement for replication is that the section for replication is completely contained within one hierarchical sheet, and replicated sections are just a copy of the same sheet.
 
 ### 3d Model tools
