@@ -20,6 +20,7 @@ automation suite.
     - [Footprint Library Tools](#footprint-library-tools)
     - [Layout Tools](#layout-tools)
     - [3D Model Tools](#3d-model-tools)
+- [Version Control Tools](#version-control-tools)
 
 <!-- /TOC -->
 
@@ -135,6 +136,20 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
+
+## Version Control Tools
+
+- [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Scripts for performing image diffs between pcbnew layout revisions in Fossil VCS
+
+- [Massaging your git for kicad](https://jnavila.github.io/plotkicadsch/) - Instructions how to integrate KiCad with Git VCS
+
+- [PlotKicadsch](https://github.com/jnavila/plotkicadsch) - PlotKicadsch is a small tool to export Kicad Sch files to SVG pictures.
+
+- [Scripting KiCad Pcbnew exports](https://scottbezek.blogspot.si/2016/04/scripting-kicad-pcbnew-exports.html) - How to plot properly formated SVG files from pcbnew for VCS diff-ing
+
+- [Improving open source hardware: Visual diffs](https://www.evilmadscientist.com/2011/improving-open-source-hardware-visual-diffs/) - Using ImageMagick for visual diff file generation
+
+- [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
 
 ## License
 
