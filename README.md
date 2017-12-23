@@ -21,6 +21,7 @@ automation suite.
     - [Layout Tools](#layout-tools)
     - [3D Model Tools](#3d-model-tools)
 - [Version Control Tools](#version-control-tools)
+- [Half-Baked Tools](#half-baked-tools)
 
 <!-- /TOC -->
 
@@ -150,6 +151,12 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 - [Improving open source hardware: Visual diffs](https://www.evilmadscientist.com/2011/improving-open-source-hardware-visual-diffs/) - Using ImageMagick for visual diff file generation
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
+
+## Half-Baked Tools
+
+If you have an interesting tool that's not quite ready for prime-time, post it here!
+Maybe someone else can move it forward or use it as a starting point for their own tool.
+
 
 ## License
 
