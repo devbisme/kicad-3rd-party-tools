@@ -42,6 +42,7 @@ part fields in KiCad schematics. KiField can extract all the component fields
 from a schematic and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the schematic.
 
+- [KiCad Partslist Editor](https://github.com/BPJWES/KiCAD_Partslist_editor) - KiCad Partslist Editor (PLE) allows you to export/import customizable fields from a hierarchical KiCad schematic file to and from a CSV
 
 ### Symbol Library Tools
 
@@ -114,6 +115,8 @@ to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
 
 - [KicadModTree](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool.
+
+- [SpiralInductorFootprintGenerator](https://github.com/erichVK5/SpiralInductorFootprintGenerator) - A java utility for generating helical or polygonal inductor footprints in either gEDA footprint or Kicad legacy module format.
 
 ### Layout Tools
 
