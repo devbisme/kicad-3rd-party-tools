@@ -141,6 +141,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
 
+- [pcbmodelgen](https://github.com/jcyrax/pcbmodelgen) - Convert KiCAD PCB files to models for import in openEMS 
+
 ## Version Control Tools
 
 - [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Scripts for performing image diffs between pcbnew layout revisions in Fossil VCS
