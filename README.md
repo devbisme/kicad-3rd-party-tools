@@ -118,6 +118,8 @@ and ball grid arrays (BGAs).
 
 - [SpiralInductorFootprintGenerator](https://github.com/erichVK5/SpiralInductorFootprintGenerator) - A java utility for generating helical or polygonal inductor footprints in either gEDA footprint or Kicad legacy module format.
 
+- [fped](http://downloads.qi-hardware.com/people/werner/fped/gui.html) - A parametric constraint based editor for footprints with a GUI and KiCad and postscript outputs. Still quite rough around the edges but available on Debian based systems through an `apt install fped`.
+
 ### Layout Tools
 
 - [Laksen/kicad-bga-tools](https://github.com/Laksen/kicad-bga-tools) - A script to generate via fanouts for BGA components on a board.
@@ -164,6 +166,9 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 If you have an interesting tool that's not quite ready for prime-time, post it here!
 Maybe someone else can move it forward or use it as a starting point for their own tool.
 
+- [footwork](https://github.com/monostable/footwork) - Unfinished footprint editor that tries to mix the s-expression footprint format with Racket (Scheme) to programmatically create footprints. 
+
+- [fpmagic](http://fpmagic.engineerjs.com/) - Web based, Chrome only, SMD only experimental footprint editor. Draw footprints using the constraints from the datasheet drawing. 
 
 ## License
 
