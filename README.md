@@ -96,9 +96,13 @@ This KiCad plugin can be used to create custom BOM files based on easy configura
 A Component/BOM Management tool for KiCad. Maintains a local database of components and facilitates associating components on schmatic with identified parts. Simply enter a part's manufacturer, supplier, manufacturer PN, and supplier PN then click 'save to datastore'. Information is keyed off of component value and footprint, so future uses can simply use the part lookup button to retrieve the information. Multiple suppliers, manufacturers, and part numbers are supported. (wxPython)
 
 - [KiBoM](https://github.com/SchrodingersGat/KiBoM)
-KiBoM is a configurable BOM (Bill of Materials) generation tool for KiCad EDA. Written in Python, it can be used directly with KiCad software without the need for any external libraries or plugins.  
-KiBoM intelligently groups components based on multiple factors, and can generate BoM files in multiple output formats.  
-BoM options are user-configurable in a per-project configuration file.  
+KiBoM is a configurable BOM (Bill of Materials) generation tool for KiCad EDA. Written in Python, it can be used directly with KiCad software without the need for any external libraries or plugins.
+KiBoM intelligently groups components based on multiple factors, and can generate BoM files in multiple output formats.
+BoM options are user-configurable in a per-project configuration file.
+
+- [KC2PK](https://github.com/Gasman2014/KC2PK)
+KiCad to PartKeepr BOM Tool. This tool, written in Python3, aims to integrate component management using BOMs produced from KiCad and inventory and stock management using PartKeepr. It also includes an Octopart lookup function to check on current pricing, availability and price breaks of components.
+
 
 ## PCB Layout Tools
 
@@ -147,7 +151,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
 
-- [pcbmodelgen](https://github.com/jcyrax/pcbmodelgen) - Convert KiCAD PCB files to models for import in openEMS 
+- [pcbmodelgen](https://github.com/jcyrax/pcbmodelgen) - Convert KiCAD PCB files to models for import in openEMS
 
 - [fcad_pcb](https://github.com/realthunder/fcad_pcb) - The original purpose of these tools was to do PCB milling in FreeCAD. It can do much more now. It can generate gcode from kicad_pcb directly without going though gerber stage. It can let your modify the PCB directly inside FC (done already), and potentially export back to kicad_pcb (partially done). And finally it can generate solid tracks, pads and plated drills to enable FEM and thermal analysis on KiCad pcb boards.
 
@@ -170,9 +174,9 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 If you have an interesting tool that's not quite ready for prime-time, post it here!
 Maybe someone else can move it forward or use it as a starting point for their own tool.
 
-- [footwork](https://github.com/monostable/footwork) - Unfinished footprint editor that tries to mix the s-expression footprint format with Racket (Scheme) to programmatically create footprints. 
+- [footwork](https://github.com/monostable/footwork) - Unfinished footprint editor that tries to mix the s-expression footprint format with Racket (Scheme) to programmatically create footprints.
 
-- [fpmagic](http://fpmagic.engineerjs.com/) - Web based, Chrome only, SMD only experimental footprint editor. Draw footprints using the constraints from a datasheet drawing. 
+- [fpmagic](http://fpmagic.engineerjs.com/) - Web based, Chrome only, SMD only experimental footprint editor. Draw footprints using the constraints from a datasheet drawing.
 
 ## License
 
