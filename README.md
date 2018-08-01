@@ -103,6 +103,12 @@ BoM options are user-configurable in a per-project configuration file.
 - [KC2PK](https://github.com/Gasman2014/KC2PK)
 KiCad to PartKeepr BOM Tool. This tool, written in Python3, aims to integrate component management using BOMs produced from KiCad and inventory and stock management using PartKeepr. It also includes an Octopart lookup function to check on current pricing, availability and price breaks of components.
 
+- [Interactive Html Bom](https://github.com/openscopeproject/InteractiveHtmlBom)
+([demo](https://openscopeproject.org/InteractiveHtmlBomDemo/OSPx201/ibom.html))
+tool designed to assist with hand assembling pcbs. Output is viewable in any modern browser and allows user to easily
+highlight a specific reference or all components in a group on a visual rendering of pcb. Script works both as Pcbnew action
+plugin and as a command line tool.
+
 
 ## PCB Layout Tools
 
