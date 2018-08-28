@@ -125,11 +125,13 @@ plugin and as a command line tool.
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
 and ball grid arrays (BGAs).
 
-- [KicadModTree](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectoy contains the footprints that are already scripted with this tool.
+- [KicadModTree](https://github.com/pointhi/kicad-footprint-generator) - Python library for generating footprints. The scripts subdirectory contains the footprints that are already scripted with this tool.
 
 - [SpiralInductorFootprintGenerator](https://github.com/erichVK5/SpiralInductorFootprintGenerator) - A java utility for generating helical or polygonal inductor footprints in either gEDA footprint or Kicad legacy module format.
 
 - [fped](http://downloads.qi-hardware.com/people/werner/fped/gui.html) - A parametric constraint based editor for footprints with a GUI and KiCad and postscript outputs. Still quite rough around the edges but available on Debian based systems through an `apt install fped`.
+
+- [KiCad Footprint Rotator](https://gitlab.com/salfter/kicad-footprint-rotator) - A sed script that takes a footprint and rotates it 90° counterclockwise.  Run it twice to turn a footprint upside-down, or three times to turn it 90° clockwise.  If you're designing a board for automated assembly, you'll need this tool to line up your footprints to match the alignment of components in your tapes and trays.
 
 ### Layout Tools
 
