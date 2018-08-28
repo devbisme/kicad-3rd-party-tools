@@ -20,7 +20,7 @@ automation suite.
     - [Footprint Library Tools](#footprint-library-tools)
     - [Layout Tools](#layout-tools)
     - [3D Model Tools](#3d-model-tools)
-    - [Plotting Tools](#3d-model-tools)
+    - [Manufacturing Output Tools](#manufacturing-output-tools)
 - [Version Control Tools](#version-control-tools)
 - [Half-Baked Tools](#half-baked-tools)
 
@@ -166,7 +166,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [fcad_pcb](https://github.com/realthunder/fcad_pcb) - The original purpose of these tools was to do PCB milling in FreeCAD. It can do much more now. It can generate gcode from kicad_pcb directly without going though gerber stage. It can let your modify the PCB directly inside FC (done already), and potentially export back to kicad_pcb (partially done). And finally it can generate solid tracks, pads and plated drills to enable FEM and thermal analysis on KiCad pcb boards.
 
-### Plotting Tools
+### Manufacturing Output Tools
 
 - [kiplot](https://github.com/johnbeard/kiplot) - A python module and program that lets you run and script KiCad's various manufacturing outputs such as Gerbers and other plots in a configurable way.  
 
