@@ -84,6 +84,8 @@ A utility to examine library components and move them between libraries.
 
 - [uConfig](https://github.com/Robotips/uConfig) - A tool to extract pinout from PDF datasheet and create kicad schematics.
 
+- [KiCad-Db-Library](https://github.com/Projektanker/kicad-db-lib) - Inspired by Altium, KiCad-Db-Lib creates one or more KiCad Symbol Libraries with atomic parts based on your database. Create and maintain a database for your electric components, symbol reference, footprint reference, value, reference (R, L, C, etc.), description, datasheet, keywords and your custom fields (manufacturer, order codes etc.) inside of KiCadDbLib. Created with Angular and Electron KiCad-Db-Lib can be used on Windows, Linux and MacOS.
+
 ### BOM Tools
 
 - [KiCost](https://xesscorp.github.io/KiCost) - A utility that generates a
