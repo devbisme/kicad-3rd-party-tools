@@ -23,6 +23,7 @@ automation suite.
     - [Manufacturing Output Tools](#manufacturing-output-tools)
 - [Version Control Tools](#version-control-tools)
 - [Half-Baked Tools](#half-baked-tools)
+- [Plumbing](#plumbing)
 
 <!-- /TOC -->
 
@@ -202,6 +203,20 @@ Maybe someone else can move it forward or use it as a starting point for their o
 - [footwork](https://github.com/monostable/footwork) - Unfinished footprint editor that tries to mix the s-expression footprint format with Racket (Scheme) to programmatically create footprints.
 
 - [fpmagic](http://fpmagic.engineerjs.com/) - Web based, Chrome only, SMD only experimental footprint editor. Draw footprints using the constraints from a datasheet drawing.
+
+## Plumbing
+
+These are libraries/packages/modules that can help when creating tools like the ones listed above.
+
+- [KinJector](https://github.com/xesscorp/kinjector) - Inject/eject JSON/YAML data to/from KiCad Board files. Primarily used to read/write design rules, net classes, net class assignments, and part (X,Y)/orientation/top-bottom positions.
+
+- [kinparse](https://github.com/xesscorp/kinparse) - A parser for KiCad schematic netlist files that are output by EESCHEMA. Just pass a file containing a netlist to the `parse_netlist()` function and it will deliver a [pyparsing](https://pypi.python.org/pypi/pyparsing) object containing all the netlist's information.
+
+- [pykicad](https://github.com/dvc94ch/pykicad) - The aim of this project is to provide high quality and well tested support for reading and writing KiCad file formats.
+
+- [kicad-python](https://github.com/pointhi/kicad-python) - An abstraction layer for the KiCad python interface. (Be aware this is in initial development and the interface can change anytime!)
+
+
 
 ## License
 
