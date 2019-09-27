@@ -115,6 +115,8 @@ tool designed to assist with hand assembling pcbs. Output is viewable in any mod
 highlight a specific reference or all components in a group on a visual rendering of pcb. Script works both as Pcbnew action
 plugin and as a command line tool.
 
+- [KiCad JLCPCB BOM Plugin](https://github.com/urish/kicad-jlcpcb-bom-plugin) Eschema plugin to produce BOM compatible with JLCPCB SMT Assembly BOM format. Also includes a script to convert the Footprint Position file into the format required by JLCPCB.
+
 
 ## PCB Layout Tools
 
