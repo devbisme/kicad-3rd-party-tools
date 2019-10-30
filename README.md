@@ -171,13 +171,13 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 ### 3d Model tools
 
-- [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
+- [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to align 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
 
 - [pcbmodelgen](https://github.com/jcyrax/pcbmodelgen) - Convert KiCAD PCB files to models for import in openEMS
 
-- [fcad_pcb](https://github.com/realthunder/fcad_pcb) - The original purpose of these tools was to do PCB milling in FreeCAD. It can do much more now. It can generate gcode from kicad_pcb directly without going though gerber stage. It can let your modify the PCB directly inside FC (done already), and potentially export back to kicad_pcb (partially done). And finally it can generate solid tracks, pads and plated drills to enable FEM and thermal analysis on KiCad pcb boards.
+- [fcad_pcb](https://github.com/realthunder/fcad_pcb) - The original purpose of these tools was to do PCB milling in FreeCAD. It can do much more now. It can generate gcode from kicad_pcb directly without going though gerber stage. It can let you modify the PCB directly inside FC (done already), and potentially export back to kicad_pcb (partially done). And finally it can generate solid tracks, pads and plated drills to enable FEM and thermal analysis on KiCad pcb boards.
 
 ### Manufacturing Output Tools
 
