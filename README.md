@@ -169,6 +169,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [DRMgr](https://github.com/xesscorp/DRMgr) - A plugin that allows you to extract the design rules from a KiCad board and store them into a file, and then load the file into other boards to replicate the design rule settings.
 
+- [RF-Tools for KiCAD](https://github.com/easyw/RF-tools-KiCAD) - A Kicad Action plugin suite to help in RF and Flex pcb design. Footprint wizards for designing mitred bends, tapered track connectors, and arc tracks (radius bends) for RF layout included. Round track corners routing, track length measurement and a mask expansion tool for direct pcb routing. Via fencing tool for RF via shielding.  [Live demo](https://youtu.be/LDblUeaB7_s) available on line.
+
 ### 3d Model tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to align 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
