@@ -171,6 +171,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [RF-Tools for KiCAD](https://github.com/easyw/RF-tools-KiCAD) - A Kicad Action plugin suite to help in RF and Flex pcb design. Footprint wizards for designing mitred bends, tapered track connectors, and arc tracks (radius bends) for RF layout included. Round track corners routing, track length measurement and a mask expansion tool for direct pcb routing. Via fencing tool for RF via shielding.  [Live demo](https://youtu.be/LDblUeaB7_s) available on line.
 
+- [Qucs-RFlayout](https://github.com/thomaslepoix/Qucs-RFlayout) - A tool to export Qucs RF schematics (microstrip) to PcbNew board layout or footprint.
+
 ### 3d Model tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to align 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
