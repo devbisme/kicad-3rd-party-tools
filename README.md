@@ -48,6 +48,8 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [qucs2kicad](https://github.com/Valber/qucs2kicad) - Convert [Quite Universal Circuit Simulator](http://qucs.sourceforge.net/) schematics to KiCad schematics. 
 
+- [KiCad Sheet Rearranger](https://github.com/KarlZeilhofer/KiCadSheetRearranger) - Simple tool for defining a certain oder of multiple sub-sheets in a schematic project
+
 ### Symbol Library Tools
 
 - [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input.
