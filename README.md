@@ -226,7 +226,7 @@ These are libraries/packages/modules that can help when creating tools like the 
 
 - [kicad-python](https://github.com/pointhi/kicad-python) - An abstraction layer for the KiCad python interface. (Be aware this is in initial development and the interface can change anytime!)
 
-
+- [pykicadlib](https://code.fueldner.net/opensource/pykicadlib) - A Python library to read and write KiCAD footprints and schematic files.
 
 ## License
 
