@@ -226,7 +226,7 @@ These are libraries/packages/modules that can help when creating tools like the 
 
 - [kicad-python](https://github.com/pointhi/kicad-python) - An abstraction layer for the KiCad python interface. (Be aware this is in initial development and the interface can change anytime!)
 
-
+- [kicad-utils](https://github.com/cho45/kicad-utils) - KiCAD library / schematic / pcb parser and plotter written in TypeScript (JavaScript)
 
 ## License
 
