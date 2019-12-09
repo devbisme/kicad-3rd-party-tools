@@ -228,6 +228,8 @@ These are libraries/packages/modules that can help when creating tools like the 
 
 - [pykicadlib](https://code.fueldner.net/opensource/pykicadlib) - A Python library to read and write KiCAD footprints and schematic files.
 
+- [kicad-utils](https://github.com/cho45/kicad-utils) - KiCAD library / schematic / pcb parser and plotter written in TypeScript (JavaScript)
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
