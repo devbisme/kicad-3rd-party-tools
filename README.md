@@ -175,6 +175,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [Qucs-RFlayout](https://github.com/thomaslepoix/Qucs-RFlayout) - A tool to export Qucs RF schematics (microstrip) to PcbNew board layout or footprint.
 
+- [dren.dk/kicad-util](https://gitlab.com/dren.dk/kicad-util) - Java utility for PCB layout cloning and panelization. 
+
 ### 3d Model tools
 
 - [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to align 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
