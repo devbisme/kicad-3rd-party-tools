@@ -179,11 +179,11 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 ### 3d Model tools
 
-- [kicad StepUp](https://github.com/easyw/kicadStepUpMod/) - KiCad StepUp is a FreeCAD Workbench aimed at helping both KiCad and FreeCAD users in collaborating with electrical (ECAD) and mechanical (MCAD) design. Main features are:  
-Load kicad board and parts in FreeCAD and export it to STEP aand WRL models;  
-Load `kicad_mod` footprint in FreeCAD to easy and precisely align the mechanical model to kicad footprint;  
-Pull a pcb edge from a `kicad_pcb` board, edit it in FreeCAD Sketcher and push it back to kicad;  
-Push & pull 3D models positions between FreeCAD and KiCAD
+- [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
+    + Export of KiCad board and parts as STEP and WRL models.  
+    + Precise alignment of `kicad_mod` footprints with their mechanical models.  
+    + Editing of KiCad PCB outlines in FreeCAD Sketcher.  
+    + Adjustment of PCB part positions between FreeCAD and KiCad.
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
 
