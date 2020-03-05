@@ -24,6 +24,7 @@ automation suite.
 - [Version Control Tools](#version-control-tools)
 - [Half-Baked Tools](#half-baked-tools)
 - [Plumbing](#plumbing)
+- [Cheatsheets](#cheatsheets)
 
 <!-- /TOC -->
 
@@ -235,6 +236,16 @@ These are libraries/packages/modules that can help when creating tools like the 
 - [pykicadlib](https://code.fueldner.net/opensource/pykicadlib) - A Python library to read and write KiCAD footprints and schematic files.
 
 - [kicad-utils](https://github.com/cho45/kicad-utils) - KiCAD library / schematic / pcb parser and plotter written in TypeScript (JavaScript)
+
+## Cheatsheets
+
+These are handy guides for using KiCad and related tools.
+
+- [KiCad Cheatsheet](https://github.com/KiCad/kicad-doc/blob/master/src/cheatsheet/kicad-cheatsheet.svg) - Lists common operations and keyboard shortcuts for KiCad.
+
+- [KiCad StepUp Cheatsheet](https://github.com/easyw/kicadStepUpMod/raw/master/demo/kicadStepUp-cheat-sheet.pdf) - A set of concise descriptions on how to do mechanical CAD tasks on KiCad PCBs with the StepUp tool.
+
+- [Git Cheatsheet](https://www.git-tower.com/learn/cheat-sheets/git) - Summarizes common operations on Git repositories that are often used to store KiCad libraries and projects.
 
 ## License
 
