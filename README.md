@@ -178,6 +178,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [dren.dk/kicad-util](https://gitlab.com/dren.dk/kicad-util) - Java utility for PCB layout cloning and panelization.
 
+- [KiKit: Automation & panelizaton for KiCAD](https://github.com/yaqwsx/KiKit) - Tool to automatically produce panels, export gerbers and board presentation pages.
+
 ### 3d Model tools
 
 - [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
@@ -211,8 +213,6 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 - [Improving open source hardware: Visual diffs](https://www.evilmadscientist.com/2011/improving-open-source-hardware-visual-diffs/) - Using ImageMagick for visual diff file generation
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
-
-- [KiKit: Automation & panelizaton for KiCAD](https://github.com/yaqwsx/KiKit) - Tool to automatically produce panels, export gerbers and board presentation pages.
 
 ## Half-Baked Tools
 
