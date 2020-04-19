@@ -47,7 +47,7 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [KiCad Partslist Editor](https://github.com/BPJWES/KiCAD_Partslist_editor) - KiCad Partslist Editor (PLE) allows you to export/import customizable fields from a hierarchical KiCad schematic file to and from a CSV
 
-- [qucs2kicad](https://github.com/Valber/qucs2kicad) - Convert [Quite Universal Circuit Simulator](http://qucs.sourceforge.net/) schematics to KiCad schematics. 
+- [qucs2kicad](https://github.com/Valber/qucs2kicad) - Convert [Quite Universal Circuit Simulator](http://qucs.sourceforge.net/) schematics to KiCad schematics.
 
 - [KiCad Sheet Rearranger](https://github.com/KarlZeilhofer/KiCadSheetRearranger) - Simple tool for defining a certain oder of multiple sub-sheets in a schematic project
 
@@ -176,14 +176,14 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [Qucs-RFlayout](https://github.com/thomaslepoix/Qucs-RFlayout) - A tool to export Qucs RF schematics (microstrip) to PcbNew board layout or footprint.
 
-- [dren.dk/kicad-util](https://gitlab.com/dren.dk/kicad-util) - Java utility for PCB layout cloning and panelization. 
+- [dren.dk/kicad-util](https://gitlab.com/dren.dk/kicad-util) - Java utility for PCB layout cloning and panelization.
 
 ### 3d Model tools
 
 - [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
-    + Export of KiCad board and parts as STEP and WRL models.  
-    + Precise alignment of `kicad_mod` footprints with their mechanical models.  
-    + Editing of KiCad PCB outlines in FreeCAD Sketcher.  
+    + Export of KiCad board and parts as STEP and WRL models.
+    + Precise alignment of `kicad_mod` footprints with their mechanical models.
+    + Editing of KiCad PCB outlines in FreeCAD Sketcher.
     + Adjustment of PCB part positions between FreeCAD and KiCad.
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
@@ -211,6 +211,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 - [Improving open source hardware: Visual diffs](https://www.evilmadscientist.com/2011/improving-open-source-hardware-visual-diffs/) - Using ImageMagick for visual diff file generation
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
+
+- [KiKit: Automation & panelizaton for KiCAD](https://github.com/yaqwsx/KiKit) - Tool to automatically produce panels, export gerbers and board presentation pages.
 
 ## Half-Baked Tools
 
