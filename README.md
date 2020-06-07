@@ -51,6 +51,8 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [KiCad Sheet Rearranger](https://github.com/KarlZeilhofer/KiCadSheetRearranger) - Simple tool for defining a certain oder of multiple sub-sheets in a schematic project
 
+- [KiCad2sycira](https://github.com/danselmi/sycira) - Symbolic circuit analyzer for the Maxima computer algebra system. Using KiCad Eeschema for circuit enrtry.
+
 ### Symbol Library Tools
 
 - [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input.
