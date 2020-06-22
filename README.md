@@ -4,7 +4,8 @@
 [KiCad](http://kicad-pcb.org/) open-source electronics design
 automation suite.
 
-*Please read the [contribution guidelines](contributing.md) before contributing.*
+* Please read the [contribution guidelines](contributing.md) before adding a tool to the list.
+* **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/xesscorp/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
 
 
 
