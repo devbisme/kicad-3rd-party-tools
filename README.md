@@ -76,7 +76,7 @@ QEDA is a Node.js library aimed to simplify the creation of Kicad libraries of e
 KicadLibCreator is a tool which will generate 'atomic' parts from an Octopart query. By setting up some simple rules, entering a part number in the Octopart search and selecting the appropriate model will add a fully defined component with a consistant style to any library.
 
 - [KiCAD Part Manager](http://mikecrash.com/index.php?name=Content&pa=showpage&pid=10)
-Part manager for KiCAD electronic design suite. Based on a MySQL database of components with ability to categorize parts, store part name, part label and part number, description, parameters and also stock count and price. Parts can be assigned to components in KiCAD schematic based on component name, type and value.
+Part manager for KiCAD electronic design suite. Based on a MySQL database of components with ability to categorize parts, store part name, part label and part number, description, parameters and also stock count and price. Parts can be assigned to components in KiCAD schematic based on component name, type and value. (**Built for KiCad 4, this may not work with KiCad 5!**)
 
 - [KiCad Librarian](http://www.compuphase.com/electronics/kicadlibrarian_en.htm)
 The KiCad Librarian is a utility to manage and maintain libraries with schematic symbols and footprints. It supports the KiCad EDA suite.
