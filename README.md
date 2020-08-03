@@ -187,6 +187,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [SchematicPositionsToLayout](https://github.com/jenschr/KiCad-parts#schematicpositionstolayoutpy) - A script that takes a Kicad 5 schematic (.sch) and a PCB Layout (.kicad_pcb) file and arranges all the components on the PCB to mimic their positions in the schematic.
 
+- [Stretch](https://github.com/JarrettR/Stretch) - Provides a *bidirectional path* so functional layout in PCBNEW can be iteratively combined with artistic design in [Inkscape](https://inkscape.org/).
+
 ### 3d Model tools
 
 - [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
