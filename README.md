@@ -95,6 +95,8 @@ A utility to examine library components and move them between libraries.
 
 - [KiCad CSV Symbol Libraries](https://github.com/eeintech/kicad-database-utils-csv) - Manage KiCad symbol library files using CSV format. The purpose of this tool is to translate back and forth symbol library data (stored in “.lib” and “.dcm” files) into the CSV format.
 
+- [Ki-nTree](https://github.com/sparkmicro/Ki-nTree) - Fast and automated part creation tool for KiCad and InvenTree. From a manufacturer or Digi-Key part number, Ki-nTree uses Digi-Key's API to fetch the part specifications and automatically generates a KiCad symbol and/or InvenTree part.
+
 ### BOM Tools
 
 - [KiCost](https://xesscorp.github.io/KiCost) - A utility that generates a
