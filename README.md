@@ -211,6 +211,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [obra/kicad-tools](https://github.com/obra/kicad-tools) - Productivity-enhancing tools primarily focused on automating generation of fabrication outputs and commandline productivity for projects tracked in git.
 
+- [GerberZipper](https://github.com/g200kg/kicad-gerberzipper) - A plugin that plots Gerber-files and Zip it for a specified PCB manufacturer.
+
 ## Version Control Tools
 
 - [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Python3 script for performing image diffs between pcbnew layout revisions in Git, SVN and Fossil VCS. Recent SVG based diff for significant speed improvements.
