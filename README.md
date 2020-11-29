@@ -209,6 +209,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [kiplot](https://github.com/johnbeard/kiplot) - A python module and program that lets you run and script KiCad's various manufacturing outputs such as Gerbers and other plots in a configurable way.
 
+- [kicad-exports](https://github.com/nerdyscout/kicad-exports) - Auto generate files (schematics, gerbers, BoM, plots, 3D model) for any KiCAD project. You could run it locally or on every git push with Github Actions.
+
 - [obra/kicad-tools](https://github.com/obra/kicad-tools) - Productivity-enhancing tools primarily focused on automating generation of fabrication outputs and commandline productivity for projects tracked in git.
 
 - [GerberZipper](https://github.com/g200kg/kicad-gerberzipper) - A plugin that plots Gerber-files and Zip it for a specified PCB manufacturer.
