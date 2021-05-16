@@ -256,6 +256,8 @@ These are libraries/packages/modules that can help when creating tools like the 
 
 - [kicad-utils](https://github.com/cho45/kicad-utils) - KiCAD library / schematic / pcb parser and plotter written in TypeScript (JavaScript)
 
+- [KiCad-RW](https://github.com/FabriceSalvaire/kicad-rw) - A Python library to read/write KiCad 6 Sexpr file format. (Implement actually a `.kicad_sch` reader)
+
 ## Cheatsheets
 
 These are handy guides for using KiCad and related tools.
