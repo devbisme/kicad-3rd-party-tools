@@ -219,19 +219,19 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 ## Version Control Tools
 
-- [Massaging your git for kicad](https://jnavila.github.io/plotkicadsch/) - Instructions for an improved integration of KiCad and with Git VCS
-
-- [PlotKicadSch](https://github.com/jnavila/plotkicadsch) - PlotKicadsch is a OCaml tool to export Kicad schematic files (.sch) to SVG pictures. Plotgitsch provides visual diffs for schematics from 2 Git revisions.
-
 - [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Python3 script for performing image diffs between pcbnew layout revisions in Git, SVN and Fossil VCS. Recent SVG based diff for significant speed improvements.
 
-- [kdiff](https://github.com/leoheck/kdiff) - Kicad revision inspector that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, to have a visual and interactive revision system for schematics and layouts.
+- [Massaging your git for kicad](https://jnavila.github.io/plotkicadsch/) - Instructions how to integrate KiCad with Git VCS
 
-- [Scripting KiCad Pcbnew exports](https://scottbezek.blogspot.si/2016/04/scripting-kicad-pcbnew-exports.html) - How to plot properly formated SVG files from pcbnew for VCS diff-ing.
+- [PlotKicadsch](https://github.com/jnavila/plotkicadsch) - PlotKicadsch is a small tool to export Kicad Sch files to SVG pictures.
 
-- [Improving open source hardware: Visual diffs](https://www.evilmadscientist.com/2011/improving-open-source-hardware-visual-diffs/) - Using ImageMagick for visual diff file generation.
+- [Scripting KiCad Pcbnew exports](https://scottbezek.blogspot.si/2016/04/scripting-kicad-pcbnew-exports.html) - How to plot properly formated SVG files from pcbnew for VCS diff-ing
+
+- [Improving open source hardware: Visual diffs](https://www.evilmadscientist.com/2011/improving-open-source-hardware-visual-diffs/) - Using ImageMagick for visual diff file generation
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
+
+- [kdiff](https://github.com/leoheck/kdiff) - Kicad revision inspector that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, to have a visual and interactive revision system for schematics and layouts.
 
 ## Half-Baked Tools
 
