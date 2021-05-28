@@ -231,6 +231,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
 
+- [kdiff](https://github.com/leoheck/kdiff) - Kicad revision inspector that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, to have a visual and interactive revision system for schematics and layouts.
+
 ## Half-Baked Tools
 
 If you have an interesting tool that's not quite ready for prime-time, post it here!
