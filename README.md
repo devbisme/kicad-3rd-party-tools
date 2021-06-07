@@ -150,6 +150,8 @@ and ball grid arrays (BGAs).
 
 - [KiCad Footprint Rotator](https://gitlab.com/salfter/kicad-footprint-rotator) - A sed script that takes a footprint and rotates it 90° counterclockwise.  Run it twice to turn a footprint upside-down, or three times to turn it 90° clockwise.  If you're designing a board for automated assembly, you'll need this tool to line up your footprints to match the alignment of components in your tapes and trays.
 
+- [KiBuzzard](https://github.com/gregdavill/KiBuzzard) - A tool to create inverted labels on silk screen layer.
+
 ### Layout Tools
 
 - [Laksen/kicad-bga-tools](https://github.com/Laksen/kicad-bga-tools) - A script to generate via fanouts for BGA components on a board.
