@@ -7,9 +7,11 @@ the [guidelines](#guidelines) and [submission procedure](#how-to-add-something-t
 
 ## Table of Contents
 
-- [Guidelines](#guidelines)
-- [How to Add Something to This List](#how-to-add-something-to-this-list)
-- [Updating Your Pull Request](#updating-your-pull-request)
+- [Contribution Guidelines](#contribution-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [Guidelines](#guidelines)
+  - [How to Add Something to This List](#how-to-add-something-to-this-list)
+  - [Updating Your Pull Request](#updating-your-pull-request)
 
 
 ## Guidelines
@@ -21,7 +23,9 @@ Please ensure your pull request (PR) adheres to the following guidelines:
 - Make an individual PR for each addition.
 - Use [title-casing](http://titlecapitalization.com) (AP style).
 - Use the following format: `[List Name](link)`
-- Link additions should be added to the **bottom** of the relevant category.
+- Link additions should be added to the **bottom** of the relevant category. **The newest tools are always closer to the botttom!**
+- If you have added **new features** to your tool, you may move its entry to the bottom of the list, or you may leave it in its current position.
+- If your tool addition supports the new KiCad V6, please add this badge at the beginning of your entry: ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 - New categories or improvements to the existing categorization are welcome.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.

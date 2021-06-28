@@ -6,6 +6,7 @@ automation suite.
 
 * Please read the [contribution guidelines](contributing.md) before adding a tool to the list.
 * **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/xesscorp/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
+* If your tool supports the new KiCad V6, please add this badge at the beginning of your entry: ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 
 
@@ -13,19 +14,22 @@ automation suite.
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Schematic Tools](#schematic-tools)
+- [KiCad Third-Party Tools](#kicad-third-party-tools)
+  - [Table of Contents](#table-of-contents)
+  - [Schematic Tools](#schematic-tools)
     - [Schematic Entry Tools](#schematic-entry-tools)
     - [Symbol Library Tools](#symbol-library-tools)
-    - [Bill of Materials (BOM) Tools](#bom-tools)
-- [PCB Layout Tools](#pcb-layout-tools)
+    - [BOM Tools](#bom-tools)
+  - [PCB Layout Tools](#pcb-layout-tools)
     - [Footprint Library Tools](#footprint-library-tools)
     - [Layout Tools](#layout-tools)
-    - [3D Model Tools](#3d-model-tools)
+    - [3d Model tools](#3d-model-tools)
     - [Manufacturing Output Tools](#manufacturing-output-tools)
-- [Version Control Tools](#version-control-tools)
-- [Half-Baked Tools](#half-baked-tools)
-- [Plumbing](#plumbing)
-- [Cheatsheets](#cheatsheets)
+  - [Version Control Tools](#version-control-tools)
+  - [Half-Baked Tools](#half-baked-tools)
+  - [Plumbing](#plumbing)
+  - [Cheatsheets](#cheatsheets)
+  - [License](#license)
 
 <!-- /TOC -->
 
@@ -35,15 +39,15 @@ automation suite.
 
 ### Schematic Entry Tools
 
-- [Skidl](http://xesscorp.github.io/skidl) - A  module that allows you
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Skidl](http://xesscorp.github.io/skidl) - A  module that allows you
 to compactly describe the interconnection of electronic circuits and components
 using Python. The resulting Python program performs electrical rules checking
 for common mistakes and outputs a netlist that serves as input to
 a PCB layout tool such as KiCad's PCBNEW.
 
-- [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
 part fields in KiCad schematics. KiField can extract all the component fields
-from a schematic and place them into a spreadsheet for bulk editing, after
+and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the schematic.
 
 - [KiCad Partslist Editor](https://github.com/BPJWES/KiCAD_Partslist_editor) - KiCad Partslist Editor (PLE) allows you to export/import customizable fields from a hierarchical KiCad schematic file to and from a CSV
@@ -64,9 +68,9 @@ which you can insert the edited values from the spreadsheet back into the schema
 and multi-unit symbols from a CSV file containing all the pin information for
 one or more parts.
 
-- [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
 part fields in KiCad symbol libraries. KiField can extract all the component fields
-from a library and place them into a spreadsheet for bulk editing, after
+and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the library.
 
 - [QEDA](https://github.com/qeda/qeda)
