@@ -5,7 +5,7 @@
 automation suite.
 
 * Please read the [contribution guidelines](contributing.md) before adding a tool to the list.
-* **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/xesscorp/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
+* **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/devbisme/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
 * If your tool supports the new KiCad V6, please add this badge at the beginning of your entry: ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 
@@ -103,7 +103,7 @@ A utility to examine library components and move them between libraries.
 
 ### BOM Tools
 
-- [KiCost](https://xesscorp.github.io/KiCost) - A utility that generates a
+- [KiCost](https://github.com/hildogjr/KiCost) - A utility that generates a
 spreadsheet from a schematic filled with the part pricing information scraped
 from distributors like Digi-Key, Mouser, etc. For each distributor and part,
 the spreadsheet contains the quantity-dependent prices, available quantities,

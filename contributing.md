@@ -39,7 +39,7 @@ If you have something to add to this list, here's how to do it.
 
 You'll need a [GitHub account](https://github.com/join)!
 
-1. Access the [this list's GitHub page](https://github.com/xesscorp/kicad-3rd-party-tools).
+1. Access the [this list's GitHub page](https://github.com/devbisme/kicad-3rd-party-tools).
 2. Click on the `README.md` file: ![Step 2 Click on README.md](view-readme.png)
 3. Now click on the edit icon. ![Step 3 - Click on Edit](start-editor.png)
 4. You can start editing the text of the file in the in-browser editor. Make sure you follow the guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). ![Step 4 - Edit the file](make-edits.png)
