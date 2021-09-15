@@ -45,7 +45,7 @@ using Python. The resulting Python program performs electrical rules checking
 for common mistakes and outputs a netlist that serves as input to
 a PCB layout tool such as KiCad's PCBNEW.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
 part fields in KiCad schematics. KiField can extract all the component fields
 and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the schematic.
@@ -68,7 +68,7 @@ which you can insert the edited values from the spreadsheet back into the schema
 and multi-unit symbols from a CSV file containing all the pin information for
 one or more parts.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
 part fields in KiCad symbol libraries. KiField can extract all the component fields
 and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the library.
@@ -179,7 +179,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [PadPainter](https://github.com/xesscorp/PadPainter) - This PCBNEW plugin identifies pins that meet specified criteria and highlights the associated pads on the PCB. This is helpful for identifying sets of related pins when physically planning the layout of high pin-count packages such as FPGAs.
 
-- [WireIt](https://github.com/xesscorp/WireIt) - This PCBNEW plugin lets you add wires between pads on a PCB, delete them, and swap wires between pads. This is helpful for physically connecting sets of related pins when doing the layout of high pin-count packages such as FPGAs.
+- [WireIt](https://github.com/devbisme/WireIt) - This PCBNEW plugin lets you add wires between pads on a PCB, delete them, and swap wires between pads. This is helpful for physically connecting sets of related pins when doing the layout of high pin-count packages such as FPGAs.
 
 - [flexRoundingSuite](https://github.com/jcloiacon/flexRoundingSuite) - Python script to round the corners of Kicad Pcbnew traces for RF / FlexPCB applications
 
