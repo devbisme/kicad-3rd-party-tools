@@ -64,7 +64,7 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions.
 
-- [KiPart](https://xesscorp.github.io/KiPart) - A utility that generates single
+- [KiPart](https://devbisme.github.io/KiPart) - A utility that generates single
 and multi-unit symbols from a CSV file containing all the pin information for
 one or more parts.
 
@@ -175,15 +175,15 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [svg2shenzhen](https://github.com/badgeek/svg2shenzhen-next) - An Inkscape plugin to export SVG layers to KiCad PCB layers. You name your layers what they would be called in KiCad (F.Cu, B.Cu etc.), draw things on them and can then turn them into a kicad_pcb or a kicad_mod. Accepts arbitrary shapes on most layers (unlike svg2mod) by using PNGs as an intermediate step and automatically converting them with a fork of KiCad's own bitmap2component.
 
-- [HierPlace](https://github.com/xesscorp/HierPlace) - A PCBNEW plugin that creates an initial arrangement of parts into groups that reflect the hierarchy of the design.
+- [HierPlace](https://github.com/devbisme/HierPlace) - A PCBNEW plugin that creates an initial arrangement of parts into groups that reflect the hierarchy of the design.
 
-- [PadPainter](https://github.com/xesscorp/PadPainter) - This PCBNEW plugin identifies pins that meet specified criteria and highlights the associated pads on the PCB. This is helpful for identifying sets of related pins when physically planning the layout of high pin-count packages such as FPGAs.
+- [PadPainter](https://github.com/devbisme/PadPainter) - This PCBNEW plugin identifies pins that meet specified criteria and highlights the associated pads on the PCB. This is helpful for identifying sets of related pins when physically planning the layout of high pin-count packages such as FPGAs.
 
 - [WireIt](https://github.com/devbisme/WireIt) - This PCBNEW plugin lets you add wires between pads on a PCB, delete them, and swap wires between pads. This is helpful for physically connecting sets of related pins when doing the layout of high pin-count packages such as FPGAs.
 
 - [flexRoundingSuite](https://github.com/jcloiacon/flexRoundingSuite) - Python script to round the corners of Kicad Pcbnew traces for RF / FlexPCB applications
 
-- [DRMgr](https://github.com/xesscorp/DRMgr) - A plugin that allows you to extract the design rules from a KiCad board and store them into a file, and then load the file into other boards to replicate the design rule settings.
+- [DRMgr](https://github.com/devbisme/DRMgr) - A plugin that allows you to extract the design rules from a KiCad board and store them into a file, and then load the file into other boards to replicate the design rule settings.
 
 - [RF-Tools for KiCAD](https://github.com/easyw/RF-tools-KiCAD) - A Kicad Action plugin suite to help in RF and Flex pcb design. Footprint wizards for designing mitred bends, tapered track connectors, and arc tracks (radius bends) for RF layout included. Round track corners routing, track length measurement and a mask expansion tool for direct pcb routing. Via fencing tool for RF via shielding.  [Live demo](https://youtu.be/LDblUeaB7_s) available on line.
 
@@ -255,9 +255,9 @@ Maybe someone else can move it forward or use it as a starting point for their o
 
 These are libraries/packages/modules that can help when creating tools like the ones listed above.
 
-- [KinJector](https://github.com/xesscorp/kinjector) - Inject/eject JSON/YAML data to/from KiCad Board files. Primarily used to read/write design rules, net classes, net class assignments, and part (X,Y)/orientation/top-bottom positions.
+- [KinJector](https://github.com/devbisme/kinjector) - Inject/eject JSON/YAML data to/from KiCad Board files. Primarily used to read/write design rules, net classes, net class assignments, and part (X,Y)/orientation/top-bottom positions.
 
-- [kinparse](https://github.com/xesscorp/kinparse) - A parser for KiCad schematic netlist files that are output by EESCHEMA. Just pass a file containing a netlist to the `parse_netlist()` function and it will deliver a [pyparsing](https://pypi.python.org/pypi/pyparsing) object containing all the netlist's information.
+- [kinparse](https://github.com/devbisme/kinparse) - A parser for KiCad schematic netlist files that are output by EESCHEMA. Just pass a file containing a netlist to the `parse_netlist()` function and it will deliver a [pyparsing](https://pypi.python.org/pypi/pyparsing) object containing all the netlist's information.
 
 - [pykicad](https://github.com/dvc94ch/pykicad) - The aim of this project is to provide high quality and well tested support for reading and writing KiCad file formats.
 
