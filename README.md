@@ -4,7 +4,9 @@
 [KiCad](http://kicad.org/) open-source electronics design
 automation suite.
 
-*Please read the [contribution guidelines](contributing.md) before contributing.*
+* Please read the [contribution guidelines](contributing.md) before adding a tool to the list.
+* **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/devbisme/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
+* If your tool supports the new KiCad V6, please add this badge at the beginning of your entry: ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 
 
@@ -12,17 +14,22 @@ automation suite.
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Schematic Tools](#schematic-tools)
+- [KiCad Third-Party Tools](#kicad-third-party-tools)
+  - [Table of Contents](#table-of-contents)
+  - [Schematic Tools](#schematic-tools)
     - [Schematic Entry Tools](#schematic-entry-tools)
     - [Symbol Library Tools](#symbol-library-tools)
-    - [Bill of Materials (BOM) Tools](#bom-tools)
-- [PCB Layout Tools](#pcb-layout-tools)
+    - [BOM Tools](#bom-tools)
+  - [PCB Layout Tools](#pcb-layout-tools)
     - [Footprint Library Tools](#footprint-library-tools)
     - [Layout Tools](#layout-tools)
-    - [3D Model Tools](#3d-model-tools)
+    - [3d Model tools](#3d-model-tools)
     - [Manufacturing Output Tools](#manufacturing-output-tools)
-- [Version Control Tools](#version-control-tools)
-- [Half-Baked Tools](#half-baked-tools)
+  - [Version Control Tools](#version-control-tools)
+  - [Half-Baked Tools](#half-baked-tools)
+  - [Plumbing](#plumbing)
+  - [Cheatsheets](#cheatsheets)
+  - [License](#license)
 
 <!-- /TOC -->
 
@@ -32,20 +39,24 @@ automation suite.
 
 ### Schematic Entry Tools
 
-- [Skidl](http://xesscorp.github.io/skidl) - A  module that allows you
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Skidl](http://xesscorp.github.io/skidl) - A  module that allows you
 to compactly describe the interconnection of electronic circuits and components
 using Python. The resulting Python program performs electrical rules checking
 for common mistakes and outputs a netlist that serves as input to
 a PCB layout tool such as KiCad's PCBNEW.
 
-- [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
 part fields in KiCad schematics. KiField can extract all the component fields
-from a schematic and place them into a spreadsheet for bulk editing, after
+and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the schematic.
 
 - [KiCad Partslist Editor](https://github.com/BPJWES/KiCAD_Partslist_editor) - KiCad Partslist Editor (PLE) allows you to export/import customizable fields from a hierarchical KiCad schematic file to and from a CSV
 
-- [qucs2kicad](https://github.com/Valber/qucs2kicad) - Convert [Quite Universal Circuit Simulator](http://qucs.sourceforge.net/) schematics to KiCad schematics. 
+- [qucs2kicad](https://github.com/Valber/qucs2kicad) - Convert [Quite Universal Circuit Simulator](http://qucs.sourceforge.net/) schematics to KiCad schematics.
+
+- [KiCad Sheet Rearranger](https://github.com/KarlZeilhofer/KiCadSheetRearranger) - Simple tool for defining a certain oder of multiple sub-sheets in a schematic project
+
+- [KiCad2sycira](https://github.com/danselmi/sycira) - Symbolic circuit analyzer for the Maxima computer algebra system. Using KiCad Eeschema for circuit enrtry.
 
 ### Symbol Library Tools
 
@@ -53,13 +64,13 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [Quick Library Generator](http://kicad.rohrbacher.net/quicklib.php) - A web service to generate common "box type" symbols for ICs from pin descriptions.
 
-- [KiPart](https://xesscorp.github.io/KiPart) - A utility that generates single
+- [KiPart](https://devbisme.github.io/KiPart) - A utility that generates single
 and multi-unit symbols from a CSV file containing all the pin information for
 one or more parts.
 
-- [KiField](https://xesscorp.github.io/KiField) - A utility for manipulating
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
 part fields in KiCad symbol libraries. KiField can extract all the component fields
-from a library and place them into a spreadsheet for bulk editing, after
+and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the library.
 
 - [QEDA](https://github.com/qeda/qeda)
@@ -69,7 +80,7 @@ QEDA is a Node.js library aimed to simplify the creation of Kicad libraries of e
 KicadLibCreator is a tool which will generate 'atomic' parts from an Octopart query. By setting up some simple rules, entering a part number in the Octopart search and selecting the appropriate model will add a fully defined component with a consistant style to any library.
 
 - [KiCAD Part Manager](http://mikecrash.com/index.php?name=Content&pa=showpage&pid=10)
-Part manager for KiCAD electronic design suite. Based on a MySQL database of components with ability to categorize parts, store part name, part label and part number, description, parameters and also stock count and price. Parts can be assigned to components in KiCAD schematic based on component name, type and value.
+Part manager for KiCAD electronic design suite. Based on a MySQL database of components with ability to categorize parts, store part name, part label and part number, description, parameters and also stock count and price. Parts can be assigned to components in KiCAD schematic based on component name, type and value. (**Built for KiCad 4, this may not work with KiCad 5!**)
 
 - [KiCad Librarian](http://www.compuphase.com/electronics/kicadlibrarian_en.htm)
 The KiCad Librarian is a utility to manage and maintain libraries with schematic symbols and footprints. It supports the KiCad EDA suite.
@@ -86,9 +97,13 @@ A utility to examine library components and move them between libraries.
 
 - [KiCad-Db-Library](https://github.com/Projektanker/kicad-db-lib) - Inspired by Altium, KiCad-Db-Lib creates one or more KiCad Symbol Libraries with atomic parts based on your database. Create and maintain a database for your electric components, symbol reference, footprint reference, value, reference (R, L, C, etc.), description, datasheet, keywords and your custom fields (manufacturer, order codes etc.) inside of KiCadDbLib. Created with Angular and Electron KiCad-Db-Lib can be used on Windows, Linux and MacOS.
 
+- [KiCad CSV Symbol Libraries](https://github.com/eeintech/kicad-database-utils-csv) - Manage KiCad symbol library files using CSV format. The purpose of this tool is to translate back and forth symbol library data (stored in “.lib” and “.dcm” files) into the CSV format.
+
+- [Ki-nTree](https://github.com/sparkmicro/Ki-nTree) - Fast and automated part creation tool for KiCad and InvenTree. From a manufacturer or Digi-Key part number, Ki-nTree uses Digi-Key's API to fetch the part specifications and automatically generates a KiCad symbol and/or InvenTree part.
+
 ### BOM Tools
 
-- [KiCost](https://xesscorp.github.io/KiCost) - A utility that generates a
+- [KiCost](https://github.com/hildogjr/KiCost) - A utility that generates a
 spreadsheet from a schematic filled with the part pricing information scraped
 from distributors like Digi-Key, Mouser, etc. For each distributor and part,
 the spreadsheet contains the quantity-dependent prices, available quantities,
@@ -114,6 +129,8 @@ tool designed to assist with hand assembling pcbs. Output is viewable in any mod
 highlight a specific reference or all components in a group on a visual rendering of pcb. Script works both as Pcbnew action
 plugin and as a command line tool.
 
+- [KiCad JLCPCB BOM Plugin](https://github.com/urish/kicad-jlcpcb-bom-plugin) Eschema plugin to produce BOM compatible with JLCPCB SMT Assembly BOM format. Also includes a script to convert the Footprint Position file into the format required by JLCPCB.
+
 
 ## PCB Layout Tools
 
@@ -137,6 +154,8 @@ and ball grid arrays (BGAs).
 
 - [KiCad Footprint Rotator](https://gitlab.com/salfter/kicad-footprint-rotator) - A sed script that takes a footprint and rotates it 90° counterclockwise.  Run it twice to turn a footprint upside-down, or three times to turn it 90° clockwise.  If you're designing a board for automated assembly, you'll need this tool to line up your footprints to match the alignment of components in your tapes and trays.
 
+- [KiBuzzard](https://github.com/gregdavill/KiBuzzard) - A tool to create inverted labels on silk screen layer.
+
 ### Layout Tools
 
 - [Laksen/kicad-bga-tools](https://github.com/Laksen/kicad-bga-tools) - A script to generate via fanouts for BGA components on a board.
@@ -156,29 +175,56 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [svg2shenzhen](https://github.com/badgeek/svg2shenzhen-next) - An Inkscape plugin to export SVG layers to KiCad PCB layers. You name your layers what they would be called in KiCad (F.Cu, B.Cu etc.), draw things on them and can then turn them into a kicad_pcb or a kicad_mod. Accepts arbitrary shapes on most layers (unlike svg2mod) by using PNGs as an intermediate step and automatically converting them with a fork of KiCad's own bitmap2component.
 
-- [HierPlace](https://github.com/xesscorp/HierPlace) - A PCBNEW plugin that creates an initial arrangement of parts into groups that reflect the hierarchy of the design.
+- [HierPlace](https://github.com/devbisme/HierPlace) - A PCBNEW plugin that creates an initial arrangement of parts into groups that reflect the hierarchy of the design.
 
-- [PadPainter](https://github.com/xesscorp/PadPainter) - This PCBNEW plugin identifies pins that meet specified criteria and highlights the associated pads on the PCB. This is helpful for identifying sets of related pins when physically planning the layout of high pin-count packages such as FPGAs.
+- [PadPainter](https://github.com/devbisme/PadPainter) - This PCBNEW plugin identifies pins that meet specified criteria and highlights the associated pads on the PCB. This is helpful for identifying sets of related pins when physically planning the layout of high pin-count packages such as FPGAs.
 
-- [WireIt](https://github.com/xesscorp/WireIt) - This PCBNEW plugin lets you add wires between pads on a PCB, delete them, and swap wires between pads. This is helpful for physically connecting sets of related pins when doing the layout of high pin-count packages such as FPGAs.
+- [WireIt](https://github.com/devbisme/WireIt) - This PCBNEW plugin lets you add wires between pads on a PCB, delete them, and swap wires between pads. This is helpful for physically connecting sets of related pins when doing the layout of high pin-count packages such as FPGAs.
 
-- [flexRoundingSuite](https://github.com/jcloiacon/flexRoundingSuite) - Python script to round the corners of Kicad Pcbnew traces for RF / FlexPCB applications 
+- [flexRoundingSuite](https://github.com/jcloiacon/flexRoundingSuite) - Python script to round the corners of Kicad Pcbnew traces for RF / FlexPCB applications
+
+- [DRMgr](https://github.com/devbisme/DRMgr) - A plugin that allows you to extract the design rules from a KiCad board and store them into a file, and then load the file into other boards to replicate the design rule settings.
+
+- [RF-Tools for KiCAD](https://github.com/easyw/RF-tools-KiCAD) - A Kicad Action plugin suite to help in RF and Flex pcb design. Footprint wizards for designing mitred bends, tapered track connectors, and arc tracks (radius bends) for RF layout included. Round track corners routing, track length measurement and a mask expansion tool for direct pcb routing. Via fencing tool for RF via shielding.  [Live demo](https://youtu.be/LDblUeaB7_s) available on line.
+
+- [Qucs-RFlayout](https://github.com/thomaslepoix/Qucs-RFlayout) - A tool to export Qucs RF schematics (microstrip) to PcbNew board layout or footprint.
+
+- [dren.dk/kicad-util](https://gitlab.com/dren.dk/kicad-util) - Java utility for PCB layout cloning and panelization.
+
+- [KiKit: Automation & panelizaton for KiCAD](https://github.com/yaqwsx/KiKit) - Tool to automatically produce panels, export gerbers and board presentation pages.
+
+- [SchematicPositionsToLayout](https://github.com/jenschr/KiCad-parts#schematicpositionstolayoutpy) - A script that takes a Kicad 5 schematic (.sch) and a PCB Layout (.kicad_pcb) file and arranges all the components on the PCB to mimic their positions in the schematic.
+
+- [Stretch](https://github.com/JarrettR/Stretch) - Provides a *bidirectional path* so functional layout in PCBNEW can be iteratively combined with artistic design in [Inkscape](https://inkscape.org/).
 
 ### 3d Model tools
 
-- [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) - A tool to allign 3d files to their respective footprint. To use these models in kicad they can be exported as step and correctly scaled wrl. This tool is also capable to export a KiCad PCB as a step file.
+- [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
+    + Export of KiCad board and parts as STEP and WRL models.
+    + Precise alignment of `kicad_mod` footprints with their mechanical models.
+    + Editing of KiCad PCB outlines in FreeCAD Sketcher.
+    + Adjustment of PCB part positions between FreeCAD and KiCad.
 
 - [cadquery 3d model generator](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator) - 3d model generators using freecad and the cadquery plugin. The scripts generate step and scaled wrl files similar to kicad stepup.
 
 - [pcbmodelgen](https://github.com/jcyrax/pcbmodelgen) - Convert KiCAD PCB files to models for import in openEMS
 
-- [fcad_pcb](https://github.com/realthunder/fcad_pcb) - The original purpose of these tools was to do PCB milling in FreeCAD. It can do much more now. It can generate gcode from kicad_pcb directly without going though gerber stage. It can let your modify the PCB directly inside FC (done already), and potentially export back to kicad_pcb (partially done). And finally it can generate solid tracks, pads and plated drills to enable FEM and thermal analysis on KiCad pcb boards.
+- [fcad_pcb](https://github.com/realthunder/fcad_pcb) - The original purpose of these tools was to do PCB milling in FreeCAD. It can do much more now. It can generate gcode from kicad_pcb directly without going though gerber stage. It can let you modify the PCB directly inside FC (done already), and potentially export back to kicad_pcb (partially done). And finally it can generate solid tracks, pads and plated drills to enable FEM and thermal analysis on KiCad pcb boards.
 
 ### Manufacturing Output Tools
 
 - [kiplot](https://github.com/johnbeard/kiplot) - A python module and program that lets you run and script KiCad's various manufacturing outputs such as Gerbers and other plots in a configurable way.
 
+- [kibot](https://github.com/INTI-CMNB/kibot) - A much more advanced fork of kiplot.
+
+- [kicad-exports](https://github.com/nerdyscout/kicad-exports) - Auto generate files (schematics, gerbers, BoM, plots, 3D model) for any KiCAD project. You could run it locally or on every git push with Github Actions.
+
 - [obra/kicad-tools](https://github.com/obra/kicad-tools) - Productivity-enhancing tools primarily focused on automating generation of fabrication outputs and commandline productivity for projects tracked in git.
+
+- [GerberZipper](https://github.com/g200kg/kicad-gerberzipper) - A plugin that plots Gerber-files and Zip it for a specified PCB manufacturer.
+
+- [PcbDraw](https://github.com/yaqwsx/PcbDraw) - Script that converts PCB to nice looking 2D drawing.
+
 
 ## Version Control Tools
 
@@ -194,6 +240,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
 
+- [kdiff](https://github.com/leoheck/kdiff) - Kicad revision inspector that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, to have a visual and interactive revision system for schematics and layouts.
+
 ## Half-Baked Tools
 
 If you have an interesting tool that's not quite ready for prime-time, post it here!
@@ -202,6 +250,34 @@ Maybe someone else can move it forward or use it as a starting point for their o
 - [footwork](https://github.com/monostable/footwork) - Unfinished footprint editor that tries to mix the s-expression footprint format with Racket (Scheme) to programmatically create footprints.
 
 - [fpmagic](http://fpmagic.engineerjs.com/) - Web based, Chrome only, SMD only experimental footprint editor. Draw footprints using the constraints from a datasheet drawing.
+
+## Plumbing
+
+These are libraries/packages/modules that can help when creating tools like the ones listed above.
+
+- [KinJector](https://github.com/devbisme/kinjector) - Inject/eject JSON/YAML data to/from KiCad Board files. Primarily used to read/write design rules, net classes, net class assignments, and part (X,Y)/orientation/top-bottom positions.
+
+- [kinparse](https://github.com/devbisme/kinparse) - A parser for KiCad schematic netlist files that are output by EESCHEMA. Just pass a file containing a netlist to the `parse_netlist()` function and it will deliver a [pyparsing](https://pypi.python.org/pypi/pyparsing) object containing all the netlist's information.
+
+- [pykicad](https://github.com/dvc94ch/pykicad) - The aim of this project is to provide high quality and well tested support for reading and writing KiCad file formats.
+
+- [kicad-python](https://github.com/pointhi/kicad-python) - An abstraction layer for the KiCad python interface. (Be aware this is in initial development and the interface can change anytime!)
+
+- [pykicadlib](https://code.fueldner.net/opensource/pykicadlib) - A Python library to read and write KiCAD footprints and schematic files.
+
+- [kicad-utils](https://github.com/cho45/kicad-utils) - KiCAD library / schematic / pcb parser and plotter written in TypeScript (JavaScript)
+
+- [KiCad-RW](https://github.com/FabriceSalvaire/kicad-rw) - A Python library to read/write KiCad 6 Sexpr file format. In addition this library can compute the netlist of a circuit. (It actually only implements a `.kicad_sch` reader)
+
+## Cheatsheets
+
+These are handy guides for using KiCad and related tools.
+
+- [KiCad Cheatsheet](https://github.com/KiCad/kicad-doc/blob/master/src/cheatsheet/kicad-cheatsheet.svg) - Lists common operations and keyboard shortcuts for KiCad.
+
+- [KiCad StepUp Cheatsheet](https://github.com/easyw/kicadStepUpMod/raw/master/demo/kicadStepUp-cheat-sheet.pdf) - A set of concise descriptions on how to do mechanical CAD tasks on KiCad PCBs with the StepUp tool.
+
+- [Git Cheatsheet](https://www.git-tower.com/learn/cheat-sheets/git) - Summarizes common operations on Git repositories that are often used to store KiCad libraries and projects.
 
 ## License
 

@@ -7,9 +7,11 @@ the [guidelines](#guidelines) and [submission procedure](#how-to-add-something-t
 
 ## Table of Contents
 
-- [Guidelines](#guidelines)
-- [How to Add Something to This List](#how-to-add-something-to-this-list)
-- [Updating Your Pull Request](#updating-your-pull-request)
+- [Contribution Guidelines](#contribution-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [Guidelines](#guidelines)
+  - [How to Add Something to This List](#how-to-add-something-to-this-list)
+  - [Updating Your Pull Request](#updating-your-pull-request)
 
 
 ## Guidelines
@@ -21,7 +23,9 @@ Please ensure your pull request (PR) adheres to the following guidelines:
 - Make an individual PR for each addition.
 - Use [title-casing](http://titlecapitalization.com) (AP style).
 - Use the following format: `[List Name](link)`
-- Link additions should be added to the **bottom** of the relevant category.
+- Link additions should be added to the **bottom** of the relevant category. **The newest tools are always closer to the botttom!**
+- If you have added **new features** to your tool, you may move its entry to the bottom of the list, or you may leave it in its current position.
+- If your tool addition supports the new KiCad V6, please add this badge at the beginning of your entry: ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 - New categories or improvements to the existing categorization are welcome.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
@@ -35,7 +39,7 @@ If you have something to add to this list, here's how to do it.
 
 You'll need a [GitHub account](https://github.com/join)!
 
-1. Access the [this list's GitHub page](https://github.com/xesscorp/kicad-3rd-party-tools).
+1. Access the [this list's GitHub page](https://github.com/devbisme/kicad-3rd-party-tools).
 2. Click on the `README.md` file: ![Step 2 Click on README.md](view-readme.png)
 3. Now click on the edit icon. ![Step 3 - Click on Edit](start-editor.png)
 4. You can start editing the text of the file in the in-browser editor. Make sure you follow the guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). ![Step 4 - Edit the file](make-edits.png)
