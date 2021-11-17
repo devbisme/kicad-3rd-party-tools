@@ -228,11 +228,11 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 ## Version Control Tools
 
-- ![](https://img.shields.io/badge/V5-%20KiCad-Green) [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Python3 script for performing image diffs between pcbnew layout revisions in Git, SVN and Fossil VCS. Recent SVG based diff for significant speed improvements.
+- [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Python3 script for performing image diffs between pcbnew layout revisions in Git, SVN and Fossil VCS. Recent SVG based diff for significant speed improvements.
 
 - [Massaging your git for kicad](https://jnavila.github.io/plotkicadsch/) - Instructions how to integrate KiCad with Git VCS
 
-- ![](https://img.shields.io/badge/V5-%20KiCad-Green) [PlotKicadsch](https://github.com/jnavila/plotkicadsch) - PlotKicadsch is a small tool to export Kicad Sch files to SVG pictures.
+- [PlotKicadsch](https://github.com/jnavila/plotkicadsch) - PlotKicadsch is a small tool to export Kicad Sch files to SVG pictures.
 
 - [Scripting KiCad Pcbnew exports](https://scottbezek.blogspot.si/2016/04/scripting-kicad-pcbnew-exports.html) - How to plot properly formated SVG files from pcbnew for VCS diff-ing
 
@@ -240,7 +240,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [KiCAD to SVG Converter](https://github.com/jmwright/oshw-code/tree/master/kicad_to_svg_converter) - Scripts for headless SVG generation of schematic files using eeschema.
 
-- ![](https://img.shields.io/badge/V5-%20KiCad-Green) [kiri](https://github.com/leoheck/kiri) - Kicad Revision Inspector (KiRI) that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, having a visual and interactive revision system for schematics and layouts.
+- [kiri](https://github.com/leoheck/kiri) - Kicad Revision Inspector (KiRI) that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, having a visual and interactive revision system for schematics and layouts.
 
 ## Half-Baked Tools
 
