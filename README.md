@@ -123,7 +123,7 @@ BoM options are user-configurable in a per-project configuration file.
 - [KC2PK](https://github.com/Gasman2014/KC2PK)
 KiCad to PartKeepr BOM Tool. This tool, written in Python3, aims to integrate component management using BOMs produced from KiCad and inventory and stock management using PartKeepr. It also includes an Octopart lookup function to check on current pricing, availability and price breaks of components.
 
-- [Interactive Html Bom](https://github.com/openscopeproject/InteractiveHtmlBom)
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Interactive Html Bom](https://github.com/openscopeproject/InteractiveHtmlBom)
 ([demo](https://openscopeproject.org/InteractiveHtmlBomDemo/OSPx201/ibom.html))
 tool designed to assist with hand assembling pcbs. Output is viewable in any modern browser and allows user to easily
 highlight a specific reference or all components in a group on a visual rendering of pcb. Script works both as Pcbnew action
@@ -225,7 +225,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [PcbDraw](https://github.com/yaqwsx/PcbDraw) - Script that converts PCB to nice looking 2D drawing.
 
-- [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB.
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB.
 
 
 ## Version Control Tools
