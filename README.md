@@ -225,7 +225,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [PcbDraw](https://github.com/yaqwsx/PcbDraw) - Script that converts PCB to nice looking 2D drawing.
 
-- [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB.
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB.
 
 
 ## Version Control Tools
