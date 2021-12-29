@@ -197,6 +197,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [Stretch](https://github.com/JarrettR/Stretch) - Provides a *bidirectional path* so functional layout in PCBNEW can be iteratively combined with artistic design in [Inkscape](https://inkscape.org/).
 
+- [FilletEdge](https://github.com/tywtyw2002/FilletEdge) - Fillet the Edge inside KiCAD.
+
 ### 3d Model tools
 
 - [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
