@@ -142,7 +142,7 @@ plugin and as a command line tool.
 
 - [monostable/kicad_footprints](https://github.com/monostable/kicad_footprints) - A collection of all the KiCad footprints available on the internet and some scripts to manage them.
 
-- [svg2mod](https://github.com/mtl/svg2mod) - A tool to convert multi-layer Inkscape SVGs into footprints.
+- [svg2mod](https://github.com/svg2mod/svg2mod) - A tool to convert multi-layer Inkscape SVGs into footprints.
 
 - [xess_fp_wizard.py](https://github.com/xesscorp/xess_fp_wizard) - A utility
 to make footprints for chips having pins around the periphery (SOICs, QFP, etc.)
