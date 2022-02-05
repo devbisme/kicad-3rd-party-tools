@@ -233,6 +233,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB.
 
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [gerber_to_order](https://github.com/asukiaaa/gerber_to_order) - A plugin that creates zip compressed gerber files for PCB manufacturers.
+
 
 ## Version Control Tools
 
