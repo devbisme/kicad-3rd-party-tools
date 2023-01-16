@@ -235,6 +235,10 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - ![](https://img.shields.io/badge/V6-%20KiCad-blue) [gerber_to_order](https://github.com/asukiaaa/gerber_to_order) - A plugin that creates zip compressed gerber files for PCB manufacturers.
 
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [PCBWay Plug-in for Kicad](https://github.com/pcbway/PCBWay-Plug-in-for-Kicad) Plugin to automate generation of Gerber files, IPC-Netlist file, BOM file and Pick-n-Place file in the appropriate format for PCB manufacturing and assembly at [PCBWay](https://www.pcbway.com/).
+
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiCAD JLCPCB tools](https://github.com/Bouni/kicad-jlcpcb-tools) Plugin to automate generation of Gerber files, Excellon files, BOM file, CPL file in the appropriate format for PCB manufacturing and assembly at [JLCPCB](https://jlcpcb.com/).
+
 
 ## Version Control Tools
 
