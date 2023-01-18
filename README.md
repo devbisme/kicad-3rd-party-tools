@@ -101,7 +101,7 @@ A utility to examine library components and move them between libraries.
 
 - [Ki-nTree](https://github.com/sparkmicro/Ki-nTree) - Fast and automated part creation tool for KiCad and InvenTree. From a manufacturer or Digi-Key part number, Ki-nTree uses Digi-Key's API to fetch the part specifications and automatically generates a KiCad symbol and/or InvenTree part.
 
-- [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
 
 ### BOM Tools
 
@@ -158,7 +158,7 @@ and ball grid arrays (BGAs).
 
 - [KiBuzzard](https://github.com/gregdavill/KiBuzzard) - A tool to create inverted labels on silk screen layer.
 
-- [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
+- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
 
 ### Layout Tools
 
