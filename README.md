@@ -6,7 +6,7 @@ automation suite.
 
 * Please read the [contribution guidelines](contributing.md) before adding a tool to the list.
 * **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/devbisme/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
-* Depending upon the version of KiCad your tool supports, please add the appropriate badges at the beginning of your entry: ![](https://img.shields.io/badge/V5-%20KiCad-red) ![](https://img.shields.io/badge/V6-%20KiCad-blue)
+* Depending upon the version of KiCad your tool supports, please add the appropriate badges at the end of your entry: ![](https://img.shields.io/badge/V5-%20KiCad-red) ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 ![](https://img.shields.io/badge/V7-%20KiCad-green)
 
 
@@ -40,16 +40,18 @@ automation suite.
 
 ### Schematic Entry Tools
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Skidl](http://xesscorp.github.io/skidl) - A  module that allows you
+- [Skidl](http://xesscorp.github.io/skidl) - A  module that allows you
 to compactly describe the interconnection of electronic circuits and components
 using Python. The resulting Python program performs electrical rules checking
 for common mistakes and outputs a netlist that serves as input to
 a PCB layout tool such as KiCad's PCBNEW.
+![](https://img.shields.io/badge/V6-%20KiCad-blue) 
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
+- [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
 part fields in KiCad schematics. KiField can extract all the component fields
 and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the schematic.
+![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 - [KiCad Partslist Editor](https://github.com/BPJWES/KiCAD_Partslist_editor) - KiCad Partslist Editor (PLE) allows you to export/import customizable fields from a hierarchical KiCad schematic file to and from a CSV
 
@@ -69,10 +71,11 @@ which you can insert the edited values from the spreadsheet back into the schema
 and multi-unit symbols from a CSV file containing all the pin information for
 one or more parts.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
+- [KiField](https://devbisme.github.io/KiField) - A utility for manipulating
 part fields in KiCad symbol libraries. KiField can extract all the component fields
 and place them into a spreadsheet for bulk editing, after
 which you can insert the edited values from the spreadsheet back into the library.
+![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 - [QEDA](https://github.com/qeda/qeda)
 QEDA is a Node.js library aimed to simplify the creation of Kicad libraries of electronic components. Qeda creates both symbols for Eeschema libraries and IPC7351 Compliant footprints for PcbNew placement.
@@ -100,9 +103,11 @@ A utility to examine library components and move them between libraries.
 
 - [KiCad CSV Symbol Libraries](https://github.com/eeintech/kicad-database-utils-csv) - (:warning: Support limited to KiCad V5 and older versions) Manage KiCad symbol library files using CSV format. The purpose of this tool is to translate back and forth symbol library data (stored in “.lib” and “.dcm” files) into the CSV format.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Ki-nTree](https://github.com/sparkmicro/Ki-nTree) - Fast and automated part creation tool for KiCad and InvenTree. From a manufacturer or Digi-Key part number, Ki-nTree uses Digi-Key's API to fetch the part specifications and automatically generates a KiCad symbol and/or InvenTree part.
+- [Ki-nTree](https://github.com/sparkmicro/Ki-nTree) - Fast and automated part creation tool for KiCad and InvenTree. From a manufacturer or Digi-Key part number, Ki-nTree uses Digi-Key's API to fetch the part specifications and automatically generates a KiCad symbol and/or InvenTree part.
+![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
+- [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
+![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 ### BOM Tools
 
@@ -126,11 +131,11 @@ BoM options are user-configurable in a per-project configuration file.
 - [KC2PK](https://github.com/Gasman2014/KC2PK)
 KiCad to PartKeepr BOM Tool. This tool, written in Python3, aims to integrate component management using BOMs produced from KiCad and inventory and stock management using PartKeepr. It also includes an Octopart lookup function to check on current pricing, availability and price breaks of components.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Interactive Html Bom](https://github.com/openscopeproject/InteractiveHtmlBom)
+- [Interactive Html Bom](https://github.com/openscopeproject/InteractiveHtmlBom)
 ([demo](https://openscopeproject.org/InteractiveHtmlBomDemo/OSPx201/ibom.html))
 tool designed to assist with hand assembling pcbs. Output is viewable in any modern browser and allows user to easily
 highlight a specific reference or all components in a group on a visual rendering of pcb. Script works both as Pcbnew action
-plugin and as a command line tool.
+plugin and as a command line tool. ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 - [KiCad JLCPCB BOM Plugin](https://github.com/urish/kicad-jlcpcb-bom-plugin) Eschema plugin to produce BOM compatible with JLCPCB SMT Assembly BOM format. Also includes a script to convert the Footprint Position file into the format required by JLCPCB.
 
@@ -159,7 +164,7 @@ and ball grid arrays (BGAs).
 
 - [KiBuzzard](https://github.com/gregdavill/KiBuzzard) - A tool to create inverted labels on silk screen layer.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint)
+- [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) - Convert any LCSC components (including EasyEDA components) to a KiCad library (symbol and footprint) ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 ### Layout Tools
 
@@ -232,13 +237,13 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [PcbDraw](https://github.com/yaqwsx/PcbDraw) - Script that converts PCB to nice looking 2D drawing.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB.
+- [Board2Pdf](https://gitlab.com/dennevi/Board2Pdf/) - A plugin which creates customized high resolution searchable pdf files from the PCB. ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [gerber_to_order](https://github.com/asukiaaa/gerber_to_order) - A plugin that creates zip compressed gerber files for PCB manufacturers.
+- [gerber_to_order](https://github.com/asukiaaa/gerber_to_order) - A plugin that creates zip compressed gerber files for PCB manufacturers. ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [PCBWay Plug-in for Kicad](https://github.com/pcbway/PCBWay-Plug-in-for-Kicad) Plugin to automate generation of Gerber files, IPC-Netlist file, BOM file and Pick-n-Place file in the appropriate format for PCB manufacturing and assembly at [PCBWay](https://www.pcbway.com/).
+- [PCBWay Plug-in for Kicad](https://github.com/pcbway/PCBWay-Plug-in-for-Kicad) Plugin to automate generation of Gerber files, IPC-Netlist file, BOM file and Pick-n-Place file in the appropriate format for PCB manufacturing and assembly at [PCBWay](https://www.pcbway.com/). ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [KiCAD JLCPCB tools](https://github.com/Bouni/kicad-jlcpcb-tools) Plugin to automate generation of Gerber files, Excellon files, BOM file, CPL file in the appropriate format for PCB manufacturing and assembly at [JLCPCB](https://jlcpcb.com/).
+- [KiCAD JLCPCB tools](https://github.com/Bouni/kicad-jlcpcb-tools) Plugin to automate generation of Gerber files, Excellon files, BOM file, CPL file in the appropriate format for PCB manufacturing and assembly at [JLCPCB](https://jlcpcb.com/). ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 
 ## Version Control Tools
@@ -272,7 +277,7 @@ These are libraries/packages/modules that can help when creating tools like the 
 
 - [KinJector](https://github.com/devbisme/kinjector) - Inject/eject JSON/YAML data to/from KiCad Board files. Primarily used to read/write design rules, net classes, net class assignments, and part (X,Y)/orientation/top-bottom positions.
 
-- ![](https://img.shields.io/badge/V6-%20KiCad-blue) [kinparse](https://github.com/devbisme/kinparse) - A parser for KiCad schematic netlist files that are output by EESCHEMA. Just pass a file containing a netlist to the `parse_netlist()` function and it will deliver a [pyparsing](https://pypi.python.org/pypi/pyparsing) object containing all the netlist's information.
+- [kinparse](https://github.com/devbisme/kinparse) - A parser for KiCad schematic netlist files that are output by EESCHEMA. Just pass a file containing a netlist to the `parse_netlist()` function and it will deliver a [pyparsing](https://pypi.python.org/pypi/pyparsing) object containing all the netlist's information. ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
 - [pykicad](https://github.com/dvc94ch/pykicad) - The aim of this project is to provide high quality and well tested support for reading and writing KiCad file formats.
 
