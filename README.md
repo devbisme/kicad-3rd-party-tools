@@ -6,7 +6,8 @@ automation suite.
 
 * Please read the [contribution guidelines](contributing.md) before adding a tool to the list.
 * **If you find a tool that no longer works with KiCad, please enter an [issue report](https://github.com/devbisme/kicad-3rd-party-tools/issues/new?assignees=&labels=&template=external-tool-malfunction-report.md&title=%5BExternal+tool+malfunction%5D).**
-* If your tool supports the new KiCad V6, please add this badge at the beginning of your entry: ![](https://img.shields.io/badge/V6-%20KiCad-blue)
+* Depending upon the version of KiCad your tool supports, please add the appropriate badges at the beginning of your entry: ![](https://img.shields.io/badge/V5-%20KiCad-red) ![](https://img.shields.io/badge/V6-%20KiCad-blue)
+![](https://img.shields.io/badge/V7-%20KiCad-green)
 
 
 
@@ -54,7 +55,7 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [qucs2kicad](https://github.com/Valber/qucs2kicad) - Convert [Quite Universal Circuit Simulator](http://qucs.sourceforge.net/) schematics to KiCad schematics.
 
-- [KiCad Sheet Rearranger](https://github.com/KarlZeilhofer/KiCadSheetRearranger) - Simple tool for defining a certain oder of multiple sub-sheets in a schematic project
+- [KiCad Sheet Rearranger](https://github.com/KarlZeilhofer/KiCadSheetRearranger) - Simple tool for defining a certain order of multiple sub-sheets in a schematic project
 
 - [KiCad2sycira](https://github.com/danselmi/sycira) - Symbolic circuit analyzer for the Maxima computer algebra system. Using KiCad Eeschema for circuit enrtry.
 
