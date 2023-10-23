@@ -61,6 +61,9 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [KiCad2sycira](https://github.com/danselmi/sycira) - Symbolic circuit analyzer for the Maxima computer algebra system. Using KiCad Eeschema for circuit enrtry.
 
+- [KiCadEditBusAliases](https://github.com/HoTschir/KiCadEditBusAliases) - Simple tool for easy edit of Bus Aliases across hierarchical sheets.
+![](https://img.shields.io/badge/V6-%20KiCad-blue)
+
 ### Symbol Library Tools
 
 - [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input.
