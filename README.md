@@ -9,7 +9,10 @@ automation suite.
 * Depending upon the version of KiCad your tool supports, please add the appropriate badges at the end of your entry: ![](https://img.shields.io/badge/V5-%20KiCad-red) ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 ![](https://img.shields.io/badge/V7-%20KiCad-green)
 
-
+**NOTE:** The entries on this page were contributed by the originators/maintainers of these tools. As such, the list is going to be incomplete.
+Go [here](https://devbisme.github.io/RepoRecon/?topic=kicad&filter=(d%3Autilit%20%7C%7C%20d%3Aplugin)%20%26%26%20!re%3Aawesom%20%26%26%20!re%3Astar&sort=pushed:desc) for a larger table
+of KiCad utilities that is automatically extracted from the repositories on Github. Tools will be automatically included in this table if they
+include the terms "KiCad" and "utilitiy" or "plugin" in their Github repository description.
 
 ## Table of Contents
 
