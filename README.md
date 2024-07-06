@@ -251,6 +251,7 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [KiCAD JLCPCB tools](https://github.com/Bouni/kicad-jlcpcb-tools) Plugin to automate generation of Gerber files, Excellon files, BOM file, CPL file in the appropriate format for PCB manufacturing and assembly at [JLCPCB](https://jlcpcb.com/). ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
+- [KiCAD Test Points](https://github.com/snhobbs/kicad-testpoints) CLI to create test-point reports for making bed-of-nails jigs. Allows any pad to be set as a testpoint. Reports are generated in the [JigsApp](https://www.thejigsapp.com) format. Also available as a [PCM plugin](https://github.com/TheJigsApp/kicad-testpoints-pcm). ![](https://img.shields.io/badge/V8-%20KiCad-blue)
 
 ## Version Control Tools
 
