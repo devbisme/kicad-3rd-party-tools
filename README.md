@@ -215,6 +215,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [FilletEdge](https://github.com/tywtyw2002/FilletEdge) - Fillet the Edge inside KiCAD.
 
+- [NCCM](https://github.com/Mage-Control-Systems-Ltd/NCCM) - Net Class Clearance Matrix for KiCad. Used to generate custom rules for clearances between net classes through a matrix GUI. ![](https://img.shields.io/badge/V9-KiCad-red)
+
 ### 3d Model tools
 
 - [KiCad StepUp](https://github.com/easyw/kicadStepUpMod/) - A FreeCAD Workbench for collaborative electrical + mechanical design which allows:
