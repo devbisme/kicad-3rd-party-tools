@@ -214,6 +214,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 - [Stretch](https://github.com/JarrettR/Stretch) - Provides a *bidirectional path* so functional layout in PCBNEW can be iteratively combined with artistic design in [Inkscape](https://inkscape.org/).
 
 - [FilletEdge](https://github.com/tywtyw2002/FilletEdge) - Fillet the Edge inside KiCAD.
+ 
+- [KiClearance](https://github.com/upb-lea/KiClearance) - Generate clearance rules for KiCAD by a human-readable easy-to-use table ![](https://img.shields.io/badge/V9-%20KiCad-green)
 
 ### 3d Model tools
 
