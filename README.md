@@ -67,6 +67,8 @@ which you can insert the edited values from the spreadsheet back into the schema
 - [KiCadEditBusAliases](https://github.com/HoTschir/KiCadEditBusAliases) - Simple tool for easy edit of Bus Aliases across hierarchical sheets.
 ![](https://img.shields.io/badge/V6-%20KiCad-blue)
 
+- [typeCAD](https://www.typecad.net): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects.
+
 ### Symbol Library Tools
 
 - [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input.
