@@ -147,6 +147,8 @@ plugin and as a command line tool. ![](https://img.shields.io/badge/V6-%20KiCad-
 
 - [KiCad JLCPCB BOM Plugin](https://github.com/urish/kicad-jlcpcb-bom-plugin) Eschema plugin to produce BOM compatible with JLCPCB SMT Assembly BOM format. Also includes a script to convert the Footprint Position file into the format required by JLCPCB.
 
+- [KiABOM](https://github.com/Mage-Control-Systems-Ltd/KiABOM)
+Simple and customiseable BOM generation script with ability to download parts data from suppliers by using an 'MPN' symbol field. See comparison with other BOM tools [here](https://mage-control-systems-ltd.github.io/KiABOM/comparisons.html).
 
 ## PCB Layout Tools
 
