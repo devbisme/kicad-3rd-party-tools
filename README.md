@@ -263,6 +263,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [KiCAD Test Points](https://github.com/snhobbs/kicad-testpoints) CLI to create test-point reports for making bed-of-nails jigs. Allows any pad to be set as a testpoint. Reports are generated in the [JigsApp](https://www.thejigsapp.com) format. Also available as a [PCM plugin](https://github.com/TheJigsApp/kicad-testpoints-pcm). ![](https://img.shields.io/badge/V8-%20KiCad-blue)
 
+- [Salitronic Gerber Analyzer](https://salitronic.com/gerber_analyzer) - Browser-based viewer for checking your KiCad fabrication output before ordering. Reads Gerber, ODB++ and IPC-2581; shows each layer and the assembled board; runs a DRC, a layer diff and a pick-and-place view. No install or sign-up.
+
 ## Version Control Tools
 
 - [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Python3 script for performing image diffs between pcbnew layout revisions in Git, SVN and Fossil VCS. Recent SVG based diff for significant speed improvements.
