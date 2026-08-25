@@ -279,6 +279,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [kiri](https://github.com/leoheck/kiri) - Kicad Revision Inspector (KiRI) that combines PlotKicadSch and KiCad-Diff into a single website, for Git repositories, having a visual and interactive revision system for schematics and layouts.
 
+- [BoardRepo](https://boardrepo.com/connect) - Hosted project library and read-only review service for KiCad boards. Search public designs or connect an MCP client to inspect schematics, BOMs, source files, DRC/ERC results, and fabrication constraints.
+
 ## Half-Baked Tools
 
 If you have an interesting tool that's not quite ready for prime-time, post it here!
