@@ -263,6 +263,8 @@ with lists to make tweaking pads for stencil creation easier. Functions include 
 
 - [KiCAD Test Points](https://github.com/snhobbs/kicad-testpoints) CLI to create test-point reports for making bed-of-nails jigs. Allows any pad to be set as a testpoint. Reports are generated in the [JigsApp](https://www.thejigsapp.com) format. Also available as a [PCM plugin](https://github.com/TheJigsApp/kicad-testpoints-pcm). ![](https://img.shields.io/badge/V8-%20KiCad-blue)
 
+- [PCBA Partner Fabrication Toolkit](https://github.com/pcbapartner/pcba-fabrication-toolkit) Plugin that exports a Gerber/drill ZIP, a grouped BOM and a placement CSV from the saved KiCad project, plus a pre-flight report on missing manufacturer fields, a missing board outline and BOM/placement differences. Runs locally with no uploads. Testing release, validated on KiCad 10.0.6 for macOS. ![](https://img.shields.io/badge/V10-%20KiCad-blue)
+
 ## Version Control Tools
 
 - [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff) - Python3 script for performing image diffs between pcbnew layout revisions in Git, SVN and Fossil VCS. Recent SVG based diff for significant speed improvements.
