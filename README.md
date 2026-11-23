@@ -71,6 +71,8 @@ which you can insert the edited values from the spreadsheet back into the schema
 
 - [KiCad Happy](https://github.com/aklofas/kicad-happy) - AI-powered design review suite that analyzes schematics and PCB layouts for bugs, traces nets, checks EMC pre-compliance, manages BOMs with DigiKey/Mouser/LCSC integration, and prepares manufacturing outputs for JLCPCB/PCBWay. Works as a Claude Code / Codex plugin or as standalone Python scripts.
 
+- ![](https://img.shields.io/badge/V6--V10-%20KiCad-blue) [Crossprobe](https://github.com/Crossprobe-AI/crossprobe-core) - Open-source KiCad editor that runs in the browser: open a KiCad 6–10 project folder, edit the schematic and board, run ERC and DRC, and save back in KiCad's own format.
+
 ### Symbol Library Tools
 
 - [Kicad-tools/libgen](https://github.com/boseji/Kicad-tools/tree/master/libgen) - A Python script to generate schematic symbols from XML input.
